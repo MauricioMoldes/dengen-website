@@ -2,18 +2,18 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import Features from '../components/Features';
 import Logos from '../components/Logos';
 
-function HomePage() {
+function Layout({ children }) {
   return (
-    
+
      <div className="px-32">
-     
+
       <Navbar />
-     	  
-      <Features />
-  
+
+      {/* Main Content */}
+      <main className="flex-grow p-6">{children}</main>
+
       <Footer />
 
       <Logos />
@@ -24,4 +24,5 @@ function HomePage() {
 
 }
 
-export default HomePage;
+export default Layout;
+
