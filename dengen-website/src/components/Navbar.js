@@ -54,13 +54,13 @@ const Navbar = () => {
 
             {/* Links to other pages */}
             <li>
-              <a href="genome-browser" target="_blank" className="text-white hover:underline">Genome Browser</a>
+              <a href="sv-qc" target="_blank" className="text-white hover:underline">Genome Browser</a>
             </li>
             <li>
               <a href="http://localhost:8080/" target="_blank" className="text-white hover:underline">Beacon</a>
             </li>
             <li>
-              <a href="data-qc-portal" target="_blank" className="text-white hover:underline">Data QC Portal</a>
+              <a href="qc" target="_blank" className="text-white hover:underline">Data QC Portal</a>
             </li>
           </ul>
         </div>
