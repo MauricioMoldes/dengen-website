@@ -12,7 +12,7 @@ function Layout({ children }) {
       <Navbar />
 
       {/* Main Content */}
-      <main className="flex-grow p-6">{children}</main>
+      <main className="flex-grow p-6">{children}</main>      
 
       <Footer />
 
