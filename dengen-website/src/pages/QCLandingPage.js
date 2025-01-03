@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Layout from "./LayoutPage"; // Import the Layout component
+import { Link } from 'react-router-dom';
 
 const QCLandingPage = () => {
 
@@ -67,9 +68,33 @@ const QCLandingPage = () => {
                   }
                 >
                   <td className="px-4 py-2 border border-white">{row.filename}</td>
-                  <td className="px-4 py-2 border border-white"><a href="/fastqc" class="text-blue-500 hover:underline">R1</a>  <a href="/fastqc" class="text-blue-500 hover:underline">R2</a></td>  
+                  <td className="px-4 py-2 border border-white"><Link
+            to={`/fastqc/${row.filename}`}
+            className="ml-4 text-blue-500 hover:underline"
+          >
+            R1
+          </Link>
+          <Link
+            to={`/fastqc/${row.filename}`}
+            className="ml-4 text-blue-500 hover:underline"
+          >
+            R2
+          </Link>
+          </td>  
                   <td className="px-4 py-2 border border-white"><a href="/alignment" class="text-blue-500 hover:underline">Alignment Statistics</a></td>
-                  <td className="px-4 py-2 border border-white"><a href="/variant" class="text-blue-500 hover:underline">Variant Statistics</a></td>
+                  <td className="px-4 py-2 border border-white"><Link
+            to={`/variant/${row.filename}`}
+            className="ml-4 text-blue-500 hover:underline"
+          >
+            SNPs
+          </Link>
+          <Link
+            to={`/structural-variant/${row.filename}`}
+            className="ml-4 text-blue-500 hover:underline"
+          >
+            SVs
+          </Link>
+          </td> 
                 </tr>
               ))}
             </tbody>

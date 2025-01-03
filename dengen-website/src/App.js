@@ -20,11 +20,11 @@ function App() {
         <Route path="/about" element={<AboutPage/>} />
         <Route path="/lorem" element={<LoremIpsumPage/>} />
 	      <Route path="/qc" element={<SamplePage/>} />
-	      <Route path="/sv-qc" element={<SVPage/>} />
-        <Route path="/landing" element={<QCLandingPage/>} />        
-        <Route path="/fastqc" element={<FastQCPage/>} />        
-        <Route path="/alignment" element={<VariantPage/>} />
-        <Route path="/variant" element={<VariantPage/>} />
+        <Route path="/landing" element={<QCLandingPage/>} />  
+	      <Route path="/structural-variant/:filename" element={<SVPage/>} />         
+        <Route path="/variant/:filename" element={<VariantPage />} />
+        <Route path="/fastqc/:filename" element={<FastQCPage />} />
+        <Route path="/alignment/:filename" element={<VariantPage/>} />       
       </Routes>
     </Router>
   );
