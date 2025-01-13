@@ -36,7 +36,7 @@ const QCLandingPage = () => {
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
             <div className="text-4xl text-green-600 mb-2">📂</div>
             <h2 className="text-lg font-semibold">Total Files</h2>
-            <p className="text-gray-600">8,0844 Files</p>
+            <p className="text-gray-600">8,844 Files</p>
           </div>
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
             <div className="text-4xl text-green-600 mb-2">📊</div>
@@ -71,28 +71,24 @@ const QCLandingPage = () => {
                   <td className="px-4 py-2 border border-white"><Link
             to={`/fastqc/${row.filename}`}
             className="ml-4 text-blue-500 hover:underline"
-          >
-            R1
+          >R1
           </Link>
           <Link
             to={`/fastqc/${row.filename}`}
             className="ml-4 text-blue-500 hover:underline"
-          >
-            R2
+          >R2
           </Link>
           </td>  
                   <td className="px-4 py-2 border border-white"><a href="/alignment" class="text-blue-500 hover:underline">Alignment Statistics</a></td>
                   <td className="px-4 py-2 border border-white"><Link
             to={`/variant/${row.filename}`}
             className="ml-4 text-blue-500 hover:underline"
-          >
-            SNPs
+          >SNPs
           </Link>
           <Link
             to={`/structural-variant/${row.filename}`}
             className="ml-4 text-blue-500 hover:underline"
-          >
-            SVs
+          >SVs
           </Link>
           </td> 
                 </tr>

@@ -8,27 +8,27 @@ function VariantPage() {
   const { filename } = useParams();
   const images = [
     {
-      src: `/${filename}/variants/tstv_by_sample.0.png`, // the error is in the path !
+      src: `/variants/${filename}/tstv_by_sample.0.png`,
       legend: 'TS/TV by Sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src:  `/${filename}/variants/vaf25.snv.0.png`,
+      src:  `/variants/${filename}/vaf25.snv.0.png`,
       legend: 'Fractions of SNVs with VAF < 25% by sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/${filename}/variants/vaf25.indel.0.png`,
+      src: `/variants/${filename}/vaf25.indel.0.png`,
       legend: 'Fractions of Indels with VAF < 25% by sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/${filename}/variants/hets_by_sample.0.png`,
+      src: `/variants/${filename}/hets_by_sample.0.png`,
       legend: 'Hets vs non-ref Homs by sample',
       info: 'Hets vs non-ref Homs by sample.',
     },
     {
-      src: `/${filename}/variants/singletons_by_sample.0.png`,
+      src: `/variants/${filename}/singletons_by_sample.0.png`,
       legend: 'Singletons by sample (hets and homs)',
       info: 'Singletons by sample (hets and homs)',
     },    
@@ -38,52 +38,52 @@ function VariantPage() {
       info: 'Average depth by sample',
     }, 
     {
-      src: `/${filename}/variants/snps_by_sample.0.png`,
+      src: `/variants/${filename}/snps_by_sample.0.png`,
       legend: 'Number of SNPs per Sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/${filename}/variants/indels_by_sample.0.png`,
+      src: `/variants/${filename}/indels_by_sample.0.png`,
       legend: 'Number of Indels by sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/${filename}/variants/tstv_by_qual.0.png`,
+      src: `/variants/${filename}/tstv_by_qual.0.png`,
       legend: 'Ts/Tv stratified by QUAL',
       info: 'This image represents the TS/TV by Quality.',
     },
     {
-      src: `/${filename}/variants/indels.0.png`,
+      src: `/variants/${filename}/indels.0.png`,
       legend: 'Indel distribution',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/${filename}/variants/indel_vaf.0.png`,
+      src: `/variants/${filename}/indel_vaf.0.png`,
       legend: 'Fraction of alternate indel allele',
       info: 'This image represents the distribution of read depths across the genome.',
     },  
     {
-      src: `/${filename}/variants/depth.0.png`,
+      src: `/variants/${filename}/depth.0.png`,
       legend: 'Depth distribution',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/${filename}/variants/hwe.0.png`,
+      src: `/variants/${filename}/hwe.0.png`,
       legend: 'Number of HETs by AF',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/${filename}/variants/substitutions.0.png`,
+      src: `/variants/${filename}/substitutions.0.png`,
       legend: 'Substitution types',
       info: 'This image represents the distribution of read depths across the genome.',
     },            
     {
-      src: `/${filename}/variants/vaf.indel.0.png`,
+      src: `/variants/${filename}/vaf.indel.0.png`,
       legend: 'Indel Variant Allele Frequency',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/${filename}/variants/vaf.snv.0.png`,
+      src: `/variants/${filename}/vaf.snv.0.png`,
       legend: 'SNV Variant Allele Frequency',
       info: 'This image represents the distribution of read depths across the genome.',
     }

@@ -4,90 +4,87 @@ import Layout from "./LayoutPage"; // Import the Layout component
 function LoremIpsumPage() {
   return (
     <Layout>
-      <div className="p-6 space-y-6">
-      {/* Header */}
-      <header className="text-center">
-        <h1 className="text-4xl font-bold text-gray-800">DenGen Lorem Ipsum</h1>
-        <p className="text-lg text-gray-600 mt-2">Genomic Research and Variants Analysis</p>
-      </header>
+       <div className="container mx-auto py-8">
+      <h1 className="text-4xl font-bold text-center mb-6">Lorem Ipsum Example Page</h1>
 
-      {/* Paragraphs */}
-      <section>
-        <h2 className="text-2xl font-semibold text-gray-700">Introduction</h2>
-        <p className="mt-4 text-gray-700">
-          DenGen ipsum dolor sit amet, consectetur adipiscing elit. Sequencing depths at least 30x provide robust insights into genetic variation. Aggregated variant frequencies refine analyses and enhance clinical diagnostics.
+      {/* Introduction Section */}
+      <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+        <p className="text-xl font-semibold text-[#003865] mb-4">Introduction</p>
+        <p className="text-gray-600 mb-6">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor urna in ante volutpat, nec viverra eros
+          maximus. Nulla facilisi. Quisque dapibus lectus ut purus tincidunt, eu malesuada nulla sodales. Morbi id magna
+          vel velit pretium suscipit. Curabitur pretium leo sit amet vestibulum pretium.
         </p>
-        <p className="mt-4 text-gray-700">
-          Integer mollis sapien nec illumina NovaSeq6000 interdum, nisi lacus aliquet sapien. Fusce structural variant detection efficitur magna a lacinia, leveraging tools like CNVnator and Manta.
+        <p className="text-gray-600 mb-6">
+          For more information, visit our <a href="/about" className="text-[#003865] hover:underline">About Page</a>.
         </p>
-      </section>
+      </div>
 
-      
-      {/* Bullets */}
-      <h2 className="text-2xl font-semibold mt-8 mb-4">Key Features</h2>
-        <ul className="list-disc pl-6 text-md">
-          <li>Whole-genome sequencing euismod ligula feugiat.</li>
-          <li>Danish population database malesuada facilisi cursus.</li>
-          <li>Clinical diagnostics potenti nullam placerat metus.</li>          
-        </ul>
-
-      {/* Table */}
-      <section>
-        <h2 className="text-2xl font-semibold text-gray-700">Genomic Data Table</h2>
-        <div className="overflow-x-auto mt-4">
-          <table className="min-w-full table-auto border-collapse border border-gray-200">
-            <thead className="bg-black">
-              <tr>
-                <th className="border border-gray-300 px-4 py-2 text-left text-white">Column 1</th>
-                <th className="border border-gray-300 px-4 py-2 text-left text-white">Column 2</th>
-                <th className="border border-gray-300 px-4 py-2 text-left text-white">Column 3</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">Lorem ipsum dolor sit amet.</td>
-                <td className="border border-gray-300 px-4 py-2">Consectetur adipiscing elit.</td>
-                <td className="border border-gray-300 px-4 py-2">Integer mollis sapien nec.</td>
-              </tr>
-              <tr className="bg-gray-50">
-                <td className="border border-gray-300 px-4 py-2">Sequencing depths 30x provide.</td>
-                <td className="border border-gray-300 px-4 py-2">Aggregated variant frequencies.</td>
-                <td className="border border-gray-300 px-4 py-2">Structural variant detection.</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">NovaSeq6000 platform analysis.</td>
-                <td className="border border-gray-300 px-4 py-2">Consensus tools for CNV.</td>
-                <td className="border border-gray-300 px-4 py-2">Genome browser applications.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      {/* Links */}
-      <section>
-        <h2 className="text-2xl font-semibold text-gray-700">Useful Links</h2>
-        <ul className="mt-4 list-inside pl-4 space-y-2">
-          <li>
-            <a href="#" className="text-blue-500 hover:underline">Genomic Research Overview</a>
-          </li>
-          <li>
-            <a href="#" className="text-blue-500 hover:underline">Whole Genome Sequencing</a>
-          </li>
-          <li>
-            <a href="#" className="text-blue-500 hover:underline">Data Analysis Techniques</a>
-          </li>
-        </ul>
-      </section>
-
-      {/* Button */}
-      <section>
-        <h2 className="text-2xl font-semibold text-gray-700">Get Started</h2>
-        <button className="mt-4 bg-blue-500 text-white py-2 px-6 rounded-full hover:bg-blue-600">
-          Start Analysis
-        </button>
-      </section>
+      {/* Table Section */}
+      <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+        <p className="text-xl font-semibold text-[#003865] mb-4">Sample Data Table</p>
+        <table className="min-w-full bg-white border border-gray-200">
+          <thead className="bg-black text-white">
+            <tr>
+              <th className="px-4 py-2 border text-left">ID</th>
+              <th className="px-4 py-2 border text-left">Name</th>
+              <th className="px-4 py-2 border text-left">Role</th>
+              <th className="px-4 py-2 border text-left">Email</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="bg-white">
+              <td className="px-4 py-2 border">1</td>
+              <td className="px-4 py-2 border">John Doe</td>
+              <td className="px-4 py-2 border">Software Engineer</td>
+              <td className="px-4 py-2 border">johndoe@example.com</td>
+            </tr>
+            <tr className="bg-gray-100">
+              <td className="px-4 py-2 border">2</td>
+              <td className="px-4 py-2 border">Jane Smith</td>
+              <td className="px-4 py-2 border">Project Manager</td>
+              <td className="px-4 py-2 border">janesmith@example.com</td>
+            </tr>
+            <tr className="bg-white">
+              <td className="px-4 py-2 border">3</td>
+              <td className="px-4 py-2 border">Emily White</td>
+              <td className="px-4 py-2 border">Designer</td>
+              <td className="px-4 py-2 border">emilywhite@example.com</td>
+            </tr>
+            <tr className="bg-gray-100">
+              <td className="px-4 py-2 border">4</td>
+              <td className="px-4 py-2 border">Michael Brown</td>
+              <td className="px-4 py-2 border">Data Scientist</td>
+              <td className="px-4 py-2 border">michaelbrown@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     
+      {/* Bullet Points Section */}
+      <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+        <p className="text-xl font-semibold text-[#003865] mb-4">Key Features</p>
+        <ul className="list-disc list-inside text-gray-600 mb-6">
+          <li>Innovative technology for seamless integration.</li>
+          <li>User-friendly interface with a simple design.</li>
+          <li>Fast and secure data processing.</li>
+          <li>Collaboration with leading institutions.</li>
+        </ul>
+      </div>
+
+      {/* Buttons Section */}
+      <div className="bg-white p-6 rounded-lg shadow-md mb-8 text-center">
+        <p className="text-xl font-semibold text-[#003865] mb-4">Get Started</p>
+        <p className="text-gray-600 mb-6">
+          Ready to learn more? Start exploring the possibilities of our platform today!
+        </p>
+        <a
+          href="/start"
+          className="bg-[#003865] text-white py-2 px-6 rounded-full hover:bg-blue-700 transition duration-300"
+        >
+          Get Started
+        </a>
+      </div>      
     </div>
 
     </Layout>

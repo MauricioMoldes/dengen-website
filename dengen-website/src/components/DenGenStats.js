@@ -67,7 +67,7 @@ const nextImage = () => {
       {/* Number of Variants Detected */}
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-gray-700">Variants Detected</h3>
-        <p className="text-3xl font-bold text-blue-600">5.8M+</p>
+        <p className="text-3xl font-bold text-blue-600">78,532,070</p>
       </div>
 
       {/* Sequencing Depth */}
