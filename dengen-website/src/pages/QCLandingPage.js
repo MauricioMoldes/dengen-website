@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 const QCLandingPage = () => {
 
   const data = [
-    { filename: "00crstivm-103918010210-Normal_Blood_noinfo-WGS_v1_IlluminaDNAPCRFree_RHGM01904-221005_A01961_BH35L5DSX5-EXT_LABKA_NGCWGS-NGCWGS05717", reads: "24M", alignments: "22M", variants: "1,746" },
+    { filename: "DENGEN000000002", reads: "24M", alignments: "22M", variants: "1,746" },
     { filename: "Sample2.fastq", reads: "24M", alignments: "19M", variants: "2,037" }     
   ];
 
   const data_auto = Array.from({ length: 2211 }, (_, i) => ({
-    filename: `Sample${i + 1}.fastq`,
+    filename: `DENGEN${(i + 1).toString().padStart(9, '0')}`,
     reads: `${Math.floor(Math.random() * 11) + 15}M`,
     alignments: `${Math.floor(Math.random() * 6) + 12}M`,
     variants: `${Math.floor(Math.random() * 2001) + 1000}`
@@ -58,7 +58,7 @@ const QCLandingPage = () => {
               </tr>
             </thead>
             <tbody>
-              {data.map((row, index) => (
+              {data_auto.map((row, index) => (
                 <tr
                   key={index}
                   className={

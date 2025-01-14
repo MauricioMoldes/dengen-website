@@ -13,9 +13,7 @@ function HomePage() {
      
       <Navbar />
      	  
-      <Features />
-
-      <DenGenStats />
+      <Features />      
   
       <Footer />
 

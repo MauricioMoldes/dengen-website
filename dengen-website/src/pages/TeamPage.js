@@ -41,29 +41,37 @@ function TeamPage() {
       image: "https://example.com/emily-white.jpg",
     },
     {
-      name: "Mauricio Moldes",
+      name: "Gül Sude Demircan",
       role: "Genomics Researcher",
       bio: "TODO Emily White contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
       image: "https://example.com/emily-white.jpg",
     },
     {
-      name: "Mauricio Moldes",
+      name: "Xin Sun",
       role: "Genomics Researcher",
       bio: "TODO Emily White contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
       image: "https://example.com/emily-white.jpg",
     },
     {
-      name: "Mauricio Moldes",
+      name: "Filipe Garrett Vieira",
       role: "Genomics Researcher",
       bio: "TODO Emily White contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
       image: "https://example.com/emily-white.jpg",
     },
     {
-      name: "Mauricio Moldes",
+      name: "Tobias Overlund Stannius",
       role: "Genomics Researcher",
       bio: "TODO Emily White contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
       image: "https://example.com/emily-white.jpg",
-    }
+    },
+    {
+      name: "Javiera Laing Carmona",
+      role: "Genomics Researcher",
+      bio: "TODO Emily White contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      image: "https://example.com/emily-white.jpg",
+    },
+
+    
   ];
 
   return (

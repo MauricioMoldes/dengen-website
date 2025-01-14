@@ -16,6 +16,8 @@ import PipelinePage from './pages/PipelinePage';
 import TeamPage from './pages/TeamPage';
 import CitationPage from './pages/CitationPage';
 import FundingPage from './pages/FundingPage';
+import BeaconPage from './pages/BeaconPage';
+import DenGenStats from './pages/DenGenStats';
 
 
 
@@ -39,6 +41,9 @@ function App() {
         <Route path="/data-access" element={<DataAccessPage />} />
         <Route path="/citation" element={<CitationPage />} />
         <Route path="/funding" element={<FundingPage />} />
+        <Route path="/beacon" element={<BeaconPage />} />
+        <Route path="/cohort-statistics" element={<DenGenStats />} />
+        
 
       </Routes>
     </Router>

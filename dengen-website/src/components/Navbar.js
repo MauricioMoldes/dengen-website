@@ -122,7 +122,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="http://localhost:8080/"
+                href="beacon"
                 target="_blank"
                 className="text-white hover:underline"
               >
