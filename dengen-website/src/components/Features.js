@@ -26,9 +26,9 @@ const Features = () => {
           alt="Genome Browser"
           className="mx-auto h-20 mb-4"
         />
-        <h2 className="text-2xl font-bold text-[#003865] mb-2">Genome Browser</h2>
+        <h2 className="text-2xl font-bold text-[#003865] mb-2">Genome Agreggation Browser</h2>
         <p className="text-gray-600 mb-4">
-          Visualize and explore genomic data with an intuitive browser.
+          Explore DenGen aggregated and harmonized exome and genome sequencing data as well as summary data.
         </p>
         <a
           href="/genome-browser"
@@ -66,7 +66,7 @@ const Features = () => {
         />
         <h2 className="text-2xl font-bold text-[#003865] mb-2">Data Quality Portal</h2>
         <p className="text-gray-600 mb-4">
-          Ensure high-quality genomic data for reliable research.
+          Explore DenGen Data Quality Portal to provide generic quality control reports over the cohort files.
         </p>
         <a
           href="/landing"
