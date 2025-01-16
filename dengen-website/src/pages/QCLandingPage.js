@@ -68,29 +68,15 @@ const QCLandingPage = () => {
                   }
                 >
                   <td className="px-4 py-2 border border-white">{row.filename}</td>
-                  <td className="px-4 py-2 border border-white"><Link
-            to={`/fastqc/${row.filename}`}
-            className="ml-4 text-blue-500 hover:underline"
-          >R1
-          </Link>
-          <Link
-            to={`/fastqc/${row.filename}`}
-            className="ml-4 text-blue-500 hover:underline"
-          >R2
-          </Link>
-          </td>  
+                  <td className="px-4 py-2 border border-white"><a href={`http://localhost:3000/reads/${row.filename}/${row.filename}_R1_fastqc.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">R1 </a><a href={`http://localhost:3000/reads/${row.filename}/${row.filename}_R2_fastqc.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">R2 </a></td> 
                   <td className="px-4 py-2 border border-white"><a href="/alignment" class="text-blue-500 hover:underline">Alignment Statistics</a></td>
                   <td className="px-4 py-2 border border-white"><Link
             to={`/variant/${row.filename}`}
             className="ml-4 text-blue-500 hover:underline"
+            target="_blank" rel="noopener noreferrer"
           >SNPs
-          </Link>
-          <Link
-            to={`/structural-variant/${row.filename}`}
-            className="ml-4 text-blue-500 hover:underline"
-          >SVs
-          </Link>
-          </td> 
+          </Link> 
+          <a href={`http://localhost:3000/sv/${row.filename}/${row.filename}.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">SV's </a></td> 
                 </tr>
               ))}
             </tbody>

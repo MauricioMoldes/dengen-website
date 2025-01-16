@@ -22,7 +22,7 @@ const Features = () => {
       {/* Genome Browser */}
       <div className="bg-white p-6 rounded-lg shadow-md text-center">
         <img
-          src="/images/genome-browser-icon.png"
+          src="https://cdn.prod.website-files.com/6557d9d36f0cbdfaf4b51869/6563b41fe7d1a2bc1fe1619d_6552a843a3c6ebfd1a66aaf3_zW5h3RBfIW7TbOM3IlXVTDWBR6Ub_WVRAmiw16E8T-np7Aa6Gg4v21pi7s-bmGHgy_OXKxNE-MD85_g-Hjmhr_spPG8rxxCh8tcGjsiTaHjv_bpO0sN3rtzA11JQYBOfY7GTr7x_j_d8f8-YWWdm0rY.png"
           alt="Genome Browser"
           className="mx-auto h-20 mb-4"
         />
@@ -41,7 +41,7 @@ const Features = () => {
       {/* Beacon */}
       <div className="bg-white p-6 rounded-lg shadow-md text-center">
         <img
-          src="/images/beacon-icon.png"
+          src="https://avatars.githubusercontent.com/u/33450937?s=200&v=4"
           alt="Beacon"
           className="mx-auto h-20 mb-4"
         />
@@ -60,7 +60,7 @@ const Features = () => {
       {/* Data Quality Portal */}
       <div className="bg-white p-6 rounded-lg shadow-md text-center">
         <img
-          src="/images/data-quality-icon.png"
+          src="https://www.rigshospitalet.dk/english/departments/centre-of-diagnostic-investigation/department-of-genomic-medicine/PublishingImages/genomic-medicine.jpg"
           alt="Data Quality"
           className="mx-auto h-20 mb-4"
         />

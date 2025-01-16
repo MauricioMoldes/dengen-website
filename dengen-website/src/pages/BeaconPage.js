@@ -58,7 +58,7 @@ function BeaconPage() {
             "Discover the power of genomic data. Explore the DenGen Beacon today and join us in advancing genomic research for Denmark and beyond."
           </p>
           <a
-            href="http://localhost:8000/"
+            href="http://localhost:8080/"
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
           >
             Access the Beacon
