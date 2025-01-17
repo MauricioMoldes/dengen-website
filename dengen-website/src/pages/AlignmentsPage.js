@@ -3,90 +3,65 @@ import { useState } from 'react';
 import Layout from "./LayoutPage"; // Import the Layout component
 import { useParams } from 'react-router-dom';
 
-function VariantPage() {
+function AlignmentsPage() {
 
   const { filename } = useParams();
   const images = [
     {
-      src: `/variants/${filename}/tstv_by_sample.0.png`,
+      src: `/alignments/${filename}/acgt-cycles.png`,
       legend: 'TS/TV by Sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src:  `/variants/${filename}/vaf25.snv.0.png`,
+      src:  `/alignments/${filename}/coverage.png`,
       legend: 'Fractions of SNVs with VAF < 25% by sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/variants/${filename}/vaf25.indel.0.png`,
+      src: `/alignments/${filename}/gc-content.png`,
       legend: 'Fractions of Indels with VAF < 25% by sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/variants/${filename}/hets_by_sample.0.png`,
+      src: `/alignments/${filename}/gc-depth.png`,
       legend: 'Hets vs non-ref Homs by sample',
       info: 'Hets vs non-ref Homs by sample.',
     },
     {
-      src: `/variants/${filename}/singletons_by_sample.0.png`,
+      src: `/alignments/${filename}/indel-cycles.png`,
       legend: 'Singletons by sample (hets and homs)',
       info: 'Singletons by sample (hets and homs)',
     },    
     {
-      src: `/${filename}//variants/dp_by_sample.0.png`,
+      src: `/alignments/${filename}/indel-dist.png`,
       legend: 'Average depth by sample',
       info: 'Average depth by sample',
     }, 
     {
-      src: `/variants/${filename}/snps_by_sample.0.png`,
+      src: `/alignments/${filename}/insert-size.png`,
       legend: 'Number of SNPs per Sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/variants/${filename}/indels_by_sample.0.png`,
+      src: `/alignments/${filename}/quals2.png`,
       legend: 'Number of Indels by sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/variants/${filename}/tstv_by_qual.0.png`,
+      src: `/alignments/${filename}/quals3.png`,
       legend: 'Ts/Tv stratified by QUAL',
       info: 'This image represents the TS/TV by Quality.',
     },
     {
-      src: `/variants/${filename}/indels.0.png`,
+      src: `/alignments/${filename}/quals-hm.png`,
       legend: 'Indel distribution',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/variants/${filename}/indel_vaf.0.png`,
+      src: `/alignments/${filename}/quals.png`,
       legend: 'Fraction of alternate indel allele',
       info: 'This image represents the distribution of read depths across the genome.',
-    },  
-    {
-      src: `/variants/${filename}/depth.0.png`,
-      legend: 'Depth distribution',
-      info: 'This image represents the distribution of read depths across the genome.',
-    },
-    {
-      src: `/variants/${filename}/hwe.0.png`,
-      legend: 'Number of HETs by AF',
-      info: 'This image represents the distribution of read depths across the genome.',
-    },
-    {
-      src: `/variants/${filename}/substitutions.0.png`,
-      legend: 'Substitution types',
-      info: 'This image represents the distribution of read depths across the genome.',
-    },            
-    {
-      src: `/variants/${filename}/vaf.indel.0.png`,
-      legend: 'Indel Variant Allele Frequency',
-      info: 'This image represents the distribution of read depths across the genome.',
-    },
-    {
-      src: `/variants/${filename}/vaf.snv.0.png`,
-      legend: 'SNV Variant Allele Frequency',
-      info: 'This image represents the distribution of read depths across the genome.',
-    }
+    }    
   ];
 
 const [showInfo, setShowInfo] = useState(null); // Track which image info is being shown
@@ -102,17 +77,16 @@ const [showInfo, setShowInfo] = useState(null); // Track which image info is bei
 	  <div class="p-8 bg-gray-100">
         <header className="text-center mb-6">
         <h1 className="text-2xl font-bold">DenGen Quality Control Summary Statistics</h1>
-        <p className="text-gray-600">Explore the quality control metrics generated for DenGen. Data was extracted with bcftools, and rendered using the plot-vcfstats according to the bcftools reference manual.</p>
+        <p className="text-gray-600">Explore the quality control metrics generated for DenGen. Data was extracted with samtools, and rendered using the plot-bamstats according to the samtools reference manual.</p>
       </header>
-</div>
+    </div>
 
-<div class="p-8 bg-gray-100">
+    <div class="p-8 bg-gray-100">
         <header className="text-center mb-6">
         <h2 className="text-xl font-bold">{filename}</h2>
       </header>
     </div>
-
-
+    
 	 <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center">
      
 
@@ -153,7 +127,7 @@ const [showInfo, setShowInfo] = useState(null); // Track which image info is bei
     </Layout>
   );
 }
-export default VariantPage;
+export default AlignmentsPage;
 
 
 

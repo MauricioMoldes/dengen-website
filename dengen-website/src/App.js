@@ -18,6 +18,7 @@ import CitationPage from './pages/CitationPage';
 import FundingPage from './pages/FundingPage';
 import BeaconPage from './pages/BeaconPage';
 import DenGenStats from './pages/DenGenStats';
+import AlignmentsPage from './pages/AlignmentsPage';
 
 
 
@@ -33,7 +34,7 @@ function App() {
 	      <Route path="/structural-variant/:filename" element={<SVPage />} />         
         <Route path="/variant/:filename" element={<VariantPage />} />
         <Route path="/fastqc/:filename" element={<FastQCPage />} />
-        <Route path="/alignment/:filename" element={<VariantPage />} />   
+        <Route path="/alignments/:filename" element={<AlignmentsPage />} />   
         <Route path="/pipelines" element={<PipelinePage />} />
         <Route path="/data-use-terms" element={<DataUseTermsPage />} />
         <Route path="/contact" element={<ContactPage />} />

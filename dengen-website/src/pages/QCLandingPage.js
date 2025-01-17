@@ -22,7 +22,7 @@ const QCLandingPage = () => {
       <div className="min-h-screen bg-gray-100">      
 
       <div className="container mx-auto p-4">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
             <div className="text-4xl text-green-600 mb-2">🧪</div>
             <h2 className="text-lg font-semibold">Number of samples</h2>
@@ -37,24 +37,29 @@ const QCLandingPage = () => {
             <div className="text-4xl text-green-600 mb-2">📂</div>
             <h2 className="text-lg font-semibold">Total Files</h2>
             <p className="text-gray-600">8,844 Files</p>
-          </div>
+          </div>         
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mb-8">
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
             <div className="text-4xl text-green-600 mb-2">📊</div>
             <h2 className="text-lg font-semibold">Statistics</h2>
             <p>
-            <a href="/qc" class="text-blue-500 hover:underline">DenGen Statistics</a>
+            <a href="/qc" class="text-blue-500 hover:underline">DenGen SNP Cohort Statistics</a>
             </p>
-          </div>
+          </div>           
         </div>
 
+
+         
         <div className="overflow-x-auto">
           <table className="w-full bg-white shadow-md rounded-lg">
             <thead className="bg-black text-white">
               <tr>
                 <th className="px-4 py-2 text-left border border-white">Filename</th>
-                <th className="px-4 py-2 text-left border border-white">Reads</th>
-                <th className="px-4 py-2 text-left border border-white">Alignments</th>
-                <th className="px-4 py-2 text-left border border-white">Variants</th>
+                <th className="px-4 py-2 text-left border border-white">Paired Reads Reports</th>
+                <th className="px-4 py-2 text-left border border-white">Alignments Report</th>
+                <th className="px-4 py-2 text-left border border-white">Variants Report</th>
               </tr>
             </thead>
             <tbody>
@@ -69,14 +74,19 @@ const QCLandingPage = () => {
                 >
                   <td className="px-4 py-2 border border-white">{row.filename}</td>
                   <td className="px-4 py-2 border border-white"><a href={`http://localhost:3000/reads/${row.filename}/${row.filename}_R1_fastqc.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">R1 </a><a href={`http://localhost:3000/reads/${row.filename}/${row.filename}_R2_fastqc.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">R2 </a></td> 
-                  <td className="px-4 py-2 border border-white"><a href="/alignment" class="text-blue-500 hover:underline">Alignment Statistics</a></td>
+                  <td className="px-4 py-2 border border-white"><Link
+            to={`/alignments/${row.filename}`}
+            className="ml-4 text-blue-500 hover:underline"
+            target="_blank" rel="noopener noreferrer"
+          >Alignment
+          </Link></td>
                   <td className="px-4 py-2 border border-white"><Link
             to={`/variant/${row.filename}`}
             className="ml-4 text-blue-500 hover:underline"
             target="_blank" rel="noopener noreferrer"
-          >SNPs
+          >SNP's
           </Link> 
-          <a href={`http://localhost:3000/sv/${row.filename}/${row.filename}.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">SV's </a></td> 
+          <a href={`http://localhost:3000/sv/${row.filename}/${row.filename}.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">SV's</a></td> 
                 </tr>
               ))}
             </tbody>

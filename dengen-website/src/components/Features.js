@@ -13,7 +13,7 @@ const Features = () => {
         href="cohort-statistics"
         className="bg-white text-[#5e9cc3] py-2 px-6 rounded hover:bg-gray-200 transition font-semibold"
       >
-        Discover More
+        View DenGen in Numbers
       </a>
     </div>
 
@@ -28,10 +28,10 @@ const Features = () => {
         />
         <h2 className="text-2xl font-bold text-[#003865] mb-2">Genome Agreggation Browser</h2>
         <p className="text-gray-600 mb-4">
-          Explore DenGen aggregated and harmonized exome and genome sequencing data as well as summary data.
+          Explore DenGen's aggregated and harmonized exome and genome sequencing data as well as summary data.
         </p>
         <a
-          href="/genome-browser"
+          href="https://gnomad.broadinstitute.org/"
           className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
         >
           Explore Now
@@ -47,7 +47,7 @@ const Features = () => {
         />
         <h2 className="text-2xl font-bold text-[#003865] mb-2">Beacon</h2>
         <p className="text-gray-600 mb-4">
-          Query genomic data securely with the GA4GH Beacon protocol.
+          Discover Danish Human Genomic data securely with the GA4GH Beacon protocol.
         </p>
         <a
           href="/beacon"
@@ -66,7 +66,7 @@ const Features = () => {
         />
         <h2 className="text-2xl font-bold text-[#003865] mb-2">Data Quality Portal</h2>
         <p className="text-gray-600 mb-4">
-          Explore DenGen Data Quality Portal to provide generic quality control reports over the cohort files.
+          Explore DenGen's Data Quality Portal, designed to provide generic quality control reports over the cohort files.
         </p>
         <a
           href="/landing"
