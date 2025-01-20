@@ -5,17 +5,24 @@ const Features = () => {
     <div className="container mx-auto py-8">
     {/* Hero Section */}
     <div className="text-center py-12 bg-[#5e9cc3] text-white rounded-lg shadow-md mb-8">
-      <h1 className="text-5xl font-bold mb-4">Welcome to DenGen</h1>
-      <p className="text-lg mb-6">
-        The Danish Genomic Database: Unlocking the potential of genomic data for research and medicine.
-      </p>
-      <a
-        href="cohort-statistics"
-        className="bg-white text-[#5e9cc3] py-2 px-6 rounded hover:bg-gray-200 transition font-semibold"
-      >
-        View DenGen in Numbers
-      </a>
-    </div>
+  <h1 className="text-5xl font-bold mb-4">Welcome to DenGen</h1>
+  <p className="text-lg mb-6">
+    The Danish Genomic Database: Unlocking the potential of genomic data for research and medicine.
+  </p>
+  <a
+    href="cohort-statistics"
+    className="bg-white text-[#5e9cc3] py-2 px-6 rounded hover:bg-gray-200 transition font-semibold mr-4"
+  >
+    DenGen in Numbers
+  </a>
+  <a
+    href="about"
+    className="bg-white text-[#5e9cc3] py-2 px-6 rounded hover:bg-gray-200 transition font-semibold"
+  >
+    Learn More
+  </a>
+</div>
+
 
     {/* Feature Highlights Section */}
     <div id="features" className="grid md:grid-cols-3 gap-6">
