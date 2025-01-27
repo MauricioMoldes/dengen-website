@@ -5,9 +5,9 @@ const Features = () => {
     <div className="container mx-auto py-8">
     {/* Hero Section */}
     <div className="text-center py-12 bg-[#5e9cc3] text-white rounded-lg shadow-md mb-8">
-  <h1 className="text-5xl font-bold mb-4">Welcome to DenGen</h1>
+  <h1 className="text-5xl font-bold mb-4">DenGen</h1>
   <p className="text-lg mb-6">
-    The Danish Genomic Database: Unlocking the potential of genomic data for research and medicine.
+  DenGen is a national genomics initiative designed to provide a comprehensive resource for understanding the genetic diversity of the Danish population. 
   </p>
   <a
     href="cohort-statistics"
@@ -52,7 +52,7 @@ const Features = () => {
           alt="Beacon"
           className="mx-auto h-20 mb-4"
         />
-        <h2 className="text-2xl font-bold text-[#003865] mb-2">Beacon</h2>
+        <h2 className="text-2xl font-bold text-[#003865] mb-2">Danish Beacon</h2>
         <p className="text-gray-600 mb-4">
           Discover Danish Human Genomic data securely with the GA4GH Beacon protocol.
         </p>

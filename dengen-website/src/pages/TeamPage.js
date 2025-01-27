@@ -47,10 +47,16 @@ function TeamPage() {
       image: "https://media.licdn.com/dms/image/v2/D4E03AQHTZ3BKonV5WQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1678565793476?e=1743033600&v=beta&t=NRM1-ow5w5Nk6TAfxhw9S9q_FJbkw-ZjqtAnmeG_vM4",
     },
     {
+      name: "Miyako Kodama Henriksen",
+      role: "Genomics Researcher",
+      bio: "TODO Emily White contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      image: "https://media.licdn.com/dms/image/v2/C5603AQF0_9h7Z2W1Dg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516487959835?e=1743033600&v=beta&t=0labwTE1IQSRBUwv3No6DbRPZulmC23oxbvW7Omi2xs",
+    },    
+    {
       name: "Filipe Garrett Vieira",
       role: "Genomics Researcher",
       bio: "TODO Emily White contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
-      image: "/team/.jpg",
+      image: "https://researchprofiles.ku.dk/assets/no-portrait-473c6d005990baa1f418d9c668dcd4ec.png",
     },
     {
       name: "Tobias Overlund Stannius",

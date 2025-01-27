@@ -5,8 +5,13 @@ const Navbar = () => {
       <div className="flex justify-start py-8 bg-white shadow-md">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Rigshospitalet_logo.svg/800px-Rigshospitalet_logo.svg.png?20171103201311"
-          alt="Rigshospitalet"
           className="h-12 ml-4"
+          /*src="/image.png"*/
+          /*src="dengen_dall-e.webp"*/
+          /*src="dengen_dall-e_tentative.png"   */       
+          alt="Rigshospitalet"
+          /*className="h-[140px] w-auto ml-4 rounded-full"*/ 
+          
         />
       </div>
 

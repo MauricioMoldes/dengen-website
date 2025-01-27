@@ -24,7 +24,12 @@ const images = [
   {
     src: "1000g_dengen_2211_merged.png",
     title: "Ancestry Distribution with 1000 Genomes Phase3",
+  },
+  {
+    src: "sequencing_depth_histogram_with_density.png",
+    title: "Average Sequencing Depth",
   }
+
 
 ];
 
@@ -75,7 +80,7 @@ const nextImage = () => {
       {/* Sequencing Depth */}
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-gray-700">Sequencing Depth</h3>
-        <p className="text-3xl font-bold text-blue-600">30x+</p>
+        <p className="text-3xl font-bold text-blue-600">52x+</p>
       </div>
 
       {/* Countries Represented */}
