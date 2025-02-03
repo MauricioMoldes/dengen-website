@@ -11,8 +11,9 @@ import FastQCPage from './pages/FastQCPage';
 import VariantPage from './pages/VariantPage';
 import ContactPage from './pages/ContactPage';
 import DataAccessPage from './pages/DataAccessPage';
-import DataUseTermsPage from './pages/FundingPage';
+import DataUseTermsPage from './pages/DataUseTermsPage';
 import PipelinePage from './pages/PipelinePage';
+import PublicationsPage from './pages/PublicationsPage';
 import TeamPage from './pages/TeamPage';
 import CitationPage from './pages/CitationPage';
 import FundingPage from './pages/FundingPage';
@@ -44,6 +45,8 @@ function App() {
         <Route path="/funding" element={<FundingPage />} />
         <Route path="/beacon" element={<BeaconPage />} />
         <Route path="/cohort-statistics" element={<DenGenStats />} />
+        <Route path="/publications" element={<PublicationsPage />} />
+
         
 
       </Routes>

@@ -38,7 +38,7 @@ const Features = () => {
           Explore DenGen's aggregated and harmonized exome and genome sequencing data as well as summary data.
         </p>
         <a
-          href="https://gnomad.broadinstitute.org/"
+          href="http://10.62.55.87:8008/"
           className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
         >
           Explore Now

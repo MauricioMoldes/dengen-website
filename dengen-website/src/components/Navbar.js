@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const Navbar = () => {
   return (
     <div>
@@ -39,119 +41,25 @@ const Navbar = () => {
                   onMouseEnter={(e) => e.stopPropagation()} // Ensures the dropdown stays open
                   onMouseLeave={(e) => e.stopPropagation()} // Prevents premature closure
                 >
-                  <li>
-                    <a
-                      href="/about"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      DenGen
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/pipelines"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      Pipelines
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/data-use-terms"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      Data Use Terms
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/data-access"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      Data Access
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/funding"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      Funders
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/publications"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      Publications
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/citation"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      Citation
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/contact"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      Contact
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/team"
-                      className="block px-4 py-2 hover:bg-blue-600"
-                    >
-                      Team
-                    </a>
-                  </li>
+                  <li><Link to="/about"  className="block px-4 py-2 hover:bg-blue-600" >DenGen</Link></li>
+                  <li><Link to="/pipelines" className="block px-4 py-2 hover:bg-blue-600" >Pipelines</Link></li>
+                  <li><Link to="/data-use-terms" className="block px-4 py-2 hover:bg-blue-600" >Data Use Terms</Link></li>
+                  <li><Link to="/data-access"  className="block px-4 py-2 hover:bg-blue-600" >Data Access</Link></li>
+                  <li><Link to="/funding"  className="block px-4 py-2 hover:bg-blue-600" >Funders</Link></li>
+                  <li><Link to="/publications" className="block px-4 py-2 hover:bg-blue-600" >Publications</Link></li>
+                  <li><Link to="/citation"className="block px-4 py-2 hover:bg-blue-600" >Citation</Link></li>
+                  <li><Link to="/contact"  className="block px-4 py-2 hover:bg-blue-600" >Contact</Link></li>
+                  <li><Link to="/team" className="block px-4 py-2 hover:bg-blue-600" >Team</Link></li>
                 </ul>
               </div>
             </li>
 
             {/* Links to other pages */}
             <li>
-              <a
-                href="sv-qc"
-                target="_blank"
-                className="text-white hover:underline"
-              >
-                Genome Browser
-              </a>
-            </li>
-            <li>
-              <a
-                href="beacon"
-                target="_blank"
-                className="text-white hover:underline"
-              >
-                Beacon
-              </a>
-            </li>
-            <li>
-              <a
-                href="landing"
-                target="_blank"
-                className="text-white hover:underline"
-              >
-                Data QC Portal
-              </a>
-            </li>
-            <li>
-              <a
-                href="landing"
-                target="_blank"
-                className="text-white hover:underline"
-              >
-                Researcher Portal
-              </a>
-            </li>
+            <Link to="http://10.62.55.87:8008/" target="_blank" className="text-white hover:underline" >Genome Browser</Link></li>
+            <li> <Link to="/beacon" target="_blank" className="text-white hover:underline" >Beacon Page</Link> </li>
+            <li> <Link to="/landing" target="_blank" className="text-white hover:underline" >Data Quality Portal</Link> </li>            
+            <li> <Link to="/landing" target="_blank" className="text-white hover:underline" >Researcher Portal</Link> </li>
           </ul>
         </div>
       </nav>
