@@ -73,7 +73,7 @@ const QCLandingPage = () => {
                   }
                 >
                   <td className="px-4 py-2 border border-white">{row.filename}</td>
-                  <td className="px-4 py-2 border border-white"><a href={`http://localhost:3000/reads/${row.filename}/${row.filename}_R1_fastqc.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">R1 </a><a href={`http://localhost:3000/reads/${row.filename}/${row.filename}_R2_fastqc.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">R2 </a></td> 
+                  <td className="px-4 py-2 border border-white"><a href={`http://10.62.55.108:3000/reads/${row.filename}/${row.filename}_R1_fastqc.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">R1 </a><a href={`http://10.62.55.108:3000/reads/${row.filename}/${row.filename}_R2_fastqc.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">R2 </a></td> 
                   <td className="px-4 py-2 border border-white"><Link
             to={`/alignments/${row.filename}`}
             className="ml-4 text-blue-500 hover:underline"
@@ -86,7 +86,7 @@ const QCLandingPage = () => {
             target="_blank" rel="noopener noreferrer"
           >SNP's
           </Link> 
-          <a href={`http://localhost:3000/sv/${row.filename}/${row.filename}.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">SV's</a></td> 
+          <a href={`http://10.62.55.108:3000/sv/${row.filename}/${row.filename}.html`} target="_blank" rel="noopener noreferrer"  className="ml-4 text-blue-500 hover:underline">SV's</a></td> 
                 </tr>
               ))}
             </tbody>

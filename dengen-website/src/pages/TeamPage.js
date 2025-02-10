@@ -18,13 +18,13 @@ function TeamPage() {
     },
     {
       name: "Luca Robinson",
-      role: "Data Scientist",
+      role: "Genomics Researcher",
       bio: "Luca Robinson is responsible for analyzing large-scale genomic datasets and developing machine learning models to interpret the DenGen data.",
       image: "https://media.licdn.com/dms/image/v2/D4D03AQFfYxl3CP7kvA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1683101154858?e=1743033600&v=beta&t=wvXE4l8pFTDW1_YrX35i4-AI7Kkm_VJ-IjyNHexBO9U",
     },
     {
       name: "Andreas Jespersen",
-      role: "",
+      role: "Genomics Researcher",
       bio: "Bob Lee focuses on the development of the DenGen website and its various features, ensuring seamless user experience and performance.",
       image: "https://media.licdn.com/dms/image/v2/C4D03AQHW6TyDz841QQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1551367633591?e=1743033600&v=beta&t=moXVRvMbvCrccbdDpG-vI4vE-668UJNhPHU45sYnmr0",
     },    
@@ -42,7 +42,7 @@ function TeamPage() {
     },
     {
       name: "Xin Sun",
-      role: "Genomics Researcher",
+      role: "Senior Software Engineer",
       bio: "TODO Emily White contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
       image: "https://media.licdn.com/dms/image/v2/D4E03AQHTZ3BKonV5WQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1678565793476?e=1743033600&v=beta&t=NRM1-ow5w5Nk6TAfxhw9S9q_FJbkw-ZjqtAnmeG_vM4",
     },

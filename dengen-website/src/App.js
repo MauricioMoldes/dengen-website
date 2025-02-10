@@ -20,6 +20,7 @@ import FundingPage from './pages/FundingPage';
 import BeaconPage from './pages/BeaconPage';
 import DenGenStats from './pages/DenGenStats';
 import AlignmentsPage from './pages/AlignmentsPage';
+import SearchPage from './pages/SearchPage';
 
 
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/beacon" element={<BeaconPage />} />
         <Route path="/cohort-statistics" element={<DenGenStats />} />
         <Route path="/publications" element={<PublicationsPage />} />
+        <Route path="/search" element={<SearchPage />} />
 
         
 
