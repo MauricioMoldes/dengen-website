@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  dengen-website:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./dengen-website:/app/dengen-website/dengen-website  # Mount only the subfolder to avoid conflicts
+    command: yarn start
+
