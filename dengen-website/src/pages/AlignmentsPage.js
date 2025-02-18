@@ -9,7 +9,7 @@ function AlignmentsPage() {
   const images = [
     {
       src: `/alignments/${filename}/acgt-cycles.png`,
-      //src: `https://yourserver.com/ftp/alignments/${filename}/acgt-cycles.png`,
+      //src: `https://http://10.62.55.108/ftp/alignments/${filename}/acgt-cycles.png`,
       legend: 'TS/TV by Sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },

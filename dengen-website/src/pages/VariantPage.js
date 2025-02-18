@@ -12,16 +12,16 @@ function VariantPage() {
       legend: 'TS/TV by Sample',
       info: 'This image represents the distribution of read depths across the genome.',
     },
-    {
-      src:  `/variants/${filename}/vaf25.snv.0.png`,
-      legend: 'Fractions of SNVs with VAF < 25% by sample',
-      info: 'This image represents the distribution of read depths across the genome.',
-    },
-    {
-      src: `/variants/${filename}/vaf25.indel.0.png`,
-      legend: 'Fractions of Indels with VAF < 25% by sample',
-      info: 'This image represents the distribution of read depths across the genome.',
-    },
+    //{
+    //  src:  `/variants/${filename}/vaf25.snv.0.png`,
+    //  legend: 'Fractions of SNVs with VAF < 25% by sample',
+    //  info: 'This image represents the distribution of read depths across the genome.',
+    //},
+    //{
+    //  src: `/variants/${filename}/vaf25.indel.0.png`,
+    //  legend: 'Fractions of Indels with VAF < 25% by sample',
+    //  info: 'This image represents the distribution of read depths across the genome.',
+    //},
     {
       src: `/variants/${filename}/hets_by_sample.0.png`,
       legend: 'Hets vs non-ref Homs by sample',
@@ -77,16 +77,16 @@ function VariantPage() {
       legend: 'Substitution types',
       info: 'This image represents the distribution of read depths across the genome.',
     },            
-    {
-      src: `/variants/${filename}/vaf.indel.0.png`,
-      legend: 'Indel Variant Allele Frequency',
-      info: 'This image represents the distribution of read depths across the genome.',
-    },
-    {
-      src: `/variants/${filename}/vaf.snv.0.png`,
-      legend: 'SNV Variant Allele Frequency',
-      info: 'This image represents the distribution of read depths across the genome.',
-    }
+    //{
+    //  src: `/variants/${filename}/vaf.indel.0.png`,
+    // legend: 'Indel Variant Allele Frequency',
+    //info: 'This image represents the distribution of read depths across the genome.',
+    //},
+    //{
+    //  src: `/variants/${filename}/vaf.snv.0.png`,
+    //  legend: 'SNV Variant Allele Frequency',
+    //  info: 'This image represents the distribution of read depths across the genome.',
+    //}
   ];
 
 const [showInfo, setShowInfo] = useState(null); // Track which image info is being shown

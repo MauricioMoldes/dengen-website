@@ -130,10 +130,10 @@ const [showInfo, setShowInfo] = useState(null); // Track which image info is bei
       <tbody>
         <tr>
           <td class="border border-gray-400 px-4 py-2">DenGen</td>
-          <td class="border border-gray-400 px-4 py-2 text-right">78,532,070</td>
+          <td class="border border-gray-400 px-4 py-2 text-right">80,969,313</td>
           <td class="border border-gray-400 px-4 py-2 text-right">1.60</td>
           <td class="border border-gray-400 px-4 py-2 text-right">1.66</td>
-          <td class="border border-gray-400 px-4 py-2 text-right">11,023,505</td>
+          <td class="border border-gray-400 px-4 py-2 text-right">18,366,910</td>
           <td class="border border-gray-400 px-4 py-2 text-center">–</td>
           <td class="border border-gray-400 px-4 py-2 text-right">0</td>
           <td class="border border-gray-400 px-4 py-2 text-right">0</td>
@@ -161,9 +161,9 @@ const [showInfo, setShowInfo] = useState(null); // Track which image info is bei
           <td class="border border-gray-400 px-4 py-2">DenGen</td>
           <td class="border border-gray-400 px-4 py-2 text-right">49.2%</td>
           <td class="border border-gray-400 px-4 py-2 text-right">1.59</td>
-          <td class="border border-gray-400 px-4 py-2 text-right">37.6%</td>
-          <td class="border border-gray-400 px-4 py-2 text-right">5,325,330</td>
-          <td class="border border-gray-400 px-4 py-2 text-right">2,194,123</td>
+          <td class="border border-gray-400 px-4 py-2 text-right">37.3%</td>
+          <td class="border border-gray-400 px-4 py-2 text-right">0</td>
+          <td class="border border-gray-400 px-4 py-2 text-right">0</td>
         </tr>
       </tbody>
     </table>
