@@ -28,9 +28,35 @@ const images = [
   {
     src: "sequencing_depth_histogram_with_density.png",
     title: "Average Sequencing Depth",
-  }
-
-
+  },
+  {
+    src: "dengen_maf_bcftools_v2.png",
+    title: "Minor Allele Frequency",
+  },
+  {
+    src: "dengen_maf_bcftools_log_v2.png",
+    title: "Minor Allele Frequency",
+  },
+  {
+    src: "dengen_variant_mean_depth_v2.png",
+    title: "Dengen Variant Mean Depth",
+  },
+  {
+    src: "dengen_variant_mean_depth_individual_v2.png",
+    title: "Individual Mean Depth",
+  },
+  {
+    src: "dengen_variant_quality_v2.png",
+    title: "Dengen Variant Quality",
+  },
+  {
+    src: "dengen_variant_missingness_v2.png",
+    title: "Dengen Variant Missingess",
+  },
+  {
+    src: "dengen_variant_missingness_individual_v2.png",
+    title: "Dengen Variant Missingess Individual",
+  }  
 ];
 
 // Function to go to the previous image
