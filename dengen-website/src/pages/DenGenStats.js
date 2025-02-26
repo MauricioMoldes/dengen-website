@@ -78,8 +78,14 @@ const nextImage = () => {
 
       {/* Number of Variants Detected */}
       <div className="bg-white p-6 rounded-lg shadow-md">
-        <h3 className="text-xl font-semibold text-gray-700">Variants Detected</h3>
-        <p className="text-3xl font-bold text-blue-600">78,532,070</p>
+        <h3 className="text-xl font-semibold text-gray-700">SNP Variants Detected</h3>
+        <p className="text-3xl font-bold text-blue-600">80,969,313</p>
+      </div>
+
+      {/* Number of Variants Detected */}
+      <div className="bg-white p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold text-gray-700">INDEL Variants Detected</h3>
+        <p className="text-3xl font-bold text-blue-600">18,366,910</p>
       </div>
 
       {/* Sequencing Depth */}
@@ -123,8 +129,7 @@ const nextImage = () => {
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-gray-700">Countries Represented</h3>
         <p className="text-3xl font-bold text-blue-600">1</p>
-      </div>      
-
+      </div>    
       </div>
 
       {/* Age and Gender Distribution Image with Carousel */}

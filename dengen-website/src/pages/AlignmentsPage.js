@@ -8,61 +8,62 @@ function AlignmentsPage() {
   const { filename } = useParams();
   const images = [
     {
-      src: `/alignments/${filename}/acgt-cycles.png`,
+      src: `/alignments/${filename}/${filename}-acgt-cycles.png`,
       //src: `https://http://10.62.55.108/ftp/alignments/${filename}/acgt-cycles.png`,
-      legend: 'TS/TV by Sample',
-      info: 'This image represents the distribution of read depths across the genome.',
+      legend: 'AGCT Cycles',
+      info: 'This image represents acgt-cycles.',
     },
     {
-      src:  `/alignments/${filename}/coverage.png`,
-      legend: 'Fractions of SNVs with VAF < 25% by sample',
-      info: 'This image represents the distribution of read depths across the genome.',
+      src:  `/alignments/${filename}/${filename}-coverage.png`,
+      legend: 'Coverage',
+      info: 'This image represents the Coverage.',
     },
     {
-      src: `/alignments/${filename}/gc-content.png`,
-      legend: 'Fractions of Indels with VAF < 25% by sample',
-      info: 'This image represents the distribution of read depths across the genome.',
+      src: `/alignments/${filename}/${filename}-gc-content.png`,
+      legend: 'GC Content',
+      info: 'This image represents GC Content.',
     },
     {
-      src: `/alignments/${filename}/gc-depth.png`,
-      legend: 'Hets vs non-ref Homs by sample',
-      info: 'Hets vs non-ref Homs by sample.',
+      src: `/alignments/${filename}/${filename}-gc-depth.png`,
+      legend: 'GC Depth',
+      info: 'This image represents GC Depth.',
     },
     {
-      src: `/alignments/${filename}/indel-cycles.png`,
-      legend: 'Singletons by sample (hets and homs)',
-      info: 'Singletons by sample (hets and homs)',
+      src: `/alignments/${filename}/${filename}-indel-cycles.png`,
+      legend: 'Indel Cycles',
+      info: 'This image represents Indel Cycles.',
     },    
     {
-      src: `/alignments/${filename}/indel-dist.png`,
-      legend: 'Average depth by sample',
+      src: `/alignments/${filename}/${filename}-indel-dist.png`,
+      legend: 'Indel Dist',
       info: 'Average depth by sample',
     }, 
     {
-      src: `/alignments/${filename}/insert-size.png`,
-      legend: 'Number of SNPs per Sample',
+      src: `/alignments/${filename}/${filename}-insert-size.png`,
+      legend: 'Insert Size',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/alignments/${filename}/quals2.png`,
-      legend: 'Number of Indels by sample',
+      src: `/alignments/${filename}/${filename}-quals.png`,
+      legend: 'Qual 1',
       info: 'This image represents the distribution of read depths across the genome.',
     },
     {
-      src: `/alignments/${filename}/quals3.png`,
-      legend: 'Ts/Tv stratified by QUAL',
+      src: `/alignments/${filename}/${filename}-quals2.png`,
+      legend: 'Qual 2',
+      info: 'This image represents the distribution of read depths across the genome.',
+    },
+    {
+      src: `/alignments/${filename}/${filename}-quals3.png`,
+      legend: 'Qual 3',
       info: 'This image represents the TS/TV by Quality.',
     },
     {
-      src: `/alignments/${filename}/quals-hm.png`,
-      legend: 'Indel distribution',
+      src: `/alignments/${filename}/${filename}-quals-hm.png`,
+      legend: 'Qual HM ',
       info: 'This image represents the distribution of read depths across the genome.',
-    },
-    {
-      src: `/alignments/${filename}/quals.png`,
-      legend: 'Fraction of alternate indel allele',
-      info: 'This image represents the distribution of read depths across the genome.',
-    }    
+    }
+      
   ];
 
 const [showInfo, setShowInfo] = useState(null); // Track which image info is being shown
