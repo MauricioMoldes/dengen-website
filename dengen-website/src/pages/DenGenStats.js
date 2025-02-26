@@ -34,10 +34,6 @@ const images = [
     title: "Minor Allele Frequency",
   },
   {
-    src: "dengen_maf_bcftools_log_v2.png",
-    title: "Minor Allele Frequency",
-  },
-  {
     src: "dengen_variant_mean_depth_v2.png",
     title: "Dengen Variant Mean Depth",
   },
