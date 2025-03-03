@@ -52,7 +52,15 @@ const images = [
   {
     src: "dengen_variant_missingness_individual_v2.png",
     title: "Dengen Variant Missingess Individual",
-  }  
+  },
+  {
+    src: "averages.png",
+    title: "Average SNV and INDEL per sample for DenGen",
+  },
+  {
+    src: "histogram.png",
+    title: " Distribution of SNV and INDEL per Sample for DenGen",
+  }   
 ];
 
 // Function to go to the previous image
