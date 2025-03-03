@@ -118,6 +118,18 @@ const nextImage = () => {
         <p className="text-3xl font-bold text-blue-600">18,366,910</p>
       </div>
 
+      {/* Number of Variants Detected */}
+      <div className="bg-white p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold text-gray-700">Average SNP Variants Detected per Sample</h3>
+        <p className="text-3xl font-bold text-blue-600">40,000 </p>
+      </div>
+
+      {/* Number of Variants Detected */}
+      <div className="bg-white p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold text-gray-700">Average INDEL Variants Detected per Sample</h3>
+        <p className="text-3xl font-bold text-blue-600">10,000</p>
+      </div>
+
       {/* Sequencing Depth */}
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-gray-700">Sequencing Depth</h3>
