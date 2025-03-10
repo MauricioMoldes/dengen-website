@@ -38,7 +38,7 @@ const Features = () => {
           Explore DenGen Allele requencies.
         </p>
         <a
-          href="http://10.62.55.87:8008/"
+          href="http://10.62.55.108:3001/"
           className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
         >
           Explore Now
