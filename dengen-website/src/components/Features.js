@@ -25,7 +25,26 @@ const Features = () => {
 
 
     {/* Feature Highlights Section */}
-    <div id="features" className="grid md:grid-cols-3 gap-6">
+    <div id="features" className="grid md:grid-cols-4 gap-6">
+      {/* Genome Browser */}
+      <div className="bg-white p-6 rounded-lg shadow-md text-center">
+        <img
+          src="https://cdn.prod.website-files.com/6557d9d36f0cbdfaf4b51869/6563b41fe7d1a2bc1fe1619d_6552a843a3c6ebfd1a66aaf3_zW5h3RBfIW7TbOM3IlXVTDWBR6Ub_WVRAmiw16E8T-np7Aa6Gg4v21pi7s-bmGHgy_OXKxNE-MD85_g-Hjmhr_spPG8rxxCh8tcGjsiTaHjv_bpO0sN3rtzA11JQYBOfY7GTr7x_j_d8f8-YWWdm0rY.png"
+          alt="Genome Browser"
+          className="mx-auto h-20 mb-4"
+        />
+        <h2 className="text-2xl font-bold text-[#003865] mb-2">Allele Frequency Browser</h2>
+        <p className="text-gray-600 mb-4">
+          Explore DenGen Allele requencies.
+        </p>
+        <a
+          href="http://10.62.55.87:8008/"
+          className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
+        >
+          Explore Now
+        </a>
+      </div>
+
       {/* Genome Browser */}
       <div className="bg-white p-6 rounded-lg shadow-md text-center">
         <img
