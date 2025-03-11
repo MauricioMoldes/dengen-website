@@ -39,7 +39,7 @@ const Features = () => {
           Explore DenGen's aggregated and harmonized exome and genome sequencing data as well as summary data.
           </p>
           <a
-            href="..."
+            href="http://10.62.55.87:3001/"
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
           >
             Explore Now
@@ -58,7 +58,7 @@ const Features = () => {
           Discover allele frequency insights in DenGen’s harmonized genomic dataset, enabling population-scale variant exploration.
           </p>
           <a
-            href="..."
+            href="http://10.62.55.108:3001/"
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
           >
             Browse Now
@@ -77,7 +77,7 @@ const Features = () => {
           Discover Danish Human Genomic data securely with the GA4GH Beacon protocol.
           </p>
           <a
-            href="..."
+            href="http://10.62.55.108:8082"
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
           >
             Learn More
@@ -97,7 +97,7 @@ const Features = () => {
           Explore DenGen's Data Quality Portal, designed to provide generic quality control reports over the cohort files.
           </p>
           <a
-            href="..."
+            href="/landing"
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
           >
             Access Portal
