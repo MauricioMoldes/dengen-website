@@ -57,6 +57,7 @@ const Navbar = () => {
             {/* Links to other pages */}
             <li>
             <Link to="http://10.62.55.87:8008/" target="_blank" className="text-white hover:underline" >Genome Browser</Link></li>
+            <li> <Link to="http://10.62.55.108:3001/" target="_blank" className="text-white hover:underline" >Allele Frequency Browser</Link> </li>
             <li> <Link to="/beacon" target="_blank" className="text-white hover:underline" >Beacon Page</Link> </li>
             <li> <Link to="/landing" target="_blank" className="text-white hover:underline" >Data Quality Portal</Link> </li>
           </ul>

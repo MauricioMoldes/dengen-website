@@ -27,82 +27,82 @@ const Features = () => {
     {/* Feature Highlights Section */}
     <div id="features" className="grid md:grid-cols-4 gap-6">
       
-      
-
-      {/* Genome Browser */}
-      <div className="bg-white p-6 rounded-lg shadow-md text-center">
-        <img
-          src="https://cdn.prod.website-files.com/6557d9d36f0cbdfaf4b51869/6563b41fe7d1a2bc1fe1619d_6552a843a3c6ebfd1a66aaf3_zW5h3RBfIW7TbOM3IlXVTDWBR6Ub_WVRAmiw16E8T-np7Aa6Gg4v21pi7s-bmGHgy_OXKxNE-MD85_g-Hjmhr_spPG8rxxCh8tcGjsiTaHjv_bpO0sN3rtzA11JQYBOfY7GTr7x_j_d8f8-YWWdm0rY.png"
-          alt="Genome Browser"
-          className="mx-auto h-20 mb-4"
-        />
-        <h2 className="text-2xl font-bold text-[#003865] mb-2">Genome Agreggation Browser</h2>
-        <p className="text-gray-600 mb-4">
+     
+      <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
+          <img
+            src="https://cdn.prod.website-files.com/6557d9d36f0cbdfaf4b51869/6563b41fe7d1a2bc1fe1619d_6552a843a3c6ebfd1a66aaf3_zW5h3RBfIW7TbOM3IlXVTDWBR6Ub_WVRAmiw16E8T-np7Aa6Gg4v21pi7s-bmGHgy_OXKxNE-MD85_g-Hjmhr_spPG8rxxCh8tcGjsiTaHjv_bpO0sN3rtzA11JQYBOfY7GTr7x_j_d8f8-YWWdm0rY.png"
+            alt="Allele Frequency Browser"
+            className="mx-auto h-20 mb-4"
+          />
+          <h2 className="text-2xl font-bold text-[#003865] mb-2">Genome Agreggation Browser</h2>
+          <p className="text-gray-600 mb-4 flex-grow">
           Explore DenGen's aggregated and harmonized exome and genome sequencing data as well as summary data.
-        </p>
-        <a
-          href="http://10.62.55.87:8008/"
-          className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
-        >
-          Explore Now
-        </a>
-      </div>
-      {/* Allele Frequency Browser */}
-      <div className="bg-white p-6 rounded-lg shadow-md text-center">
-        <img
-          src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D"
-          alt="Allele Frequency Browser"
-          className="mx-auto h-20 mb-4"
-        />
-        <h2 className="text-2xl font-bold text-[#003865] mb-2">Allele Frequency Browser</h2>
-        <p className="text-gray-600 mb-4">
-        Discover allele frequency insights in DenGen’s harmonized genomic dataset, enabling population-scale variant exploration.
-        </p>
-        <a
-          href="http://10.62.55.108:3001/"
-          className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
-        >
-          Browse Now
-        </a>
-      </div>
+          </p>
+          <a
+            href="..."
+            className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
+          >
+            Explore Now
+          </a>
+        </div>
+
+       {/* Alllele Frequency Browser */}
+     <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
+          <img
+            src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D"
+            alt="Allele Frequency Browser"
+            className="mx-auto h-20 mb-4"
+          />
+          <h2 className="text-2xl font-bold text-[#003865] mb-2">Allele Frequency Browser</h2>
+          <p className="text-gray-600 mb-4 flex-grow">
+          Discover allele frequency insights in DenGen’s harmonized genomic dataset, enabling population-scale variant exploration.
+          </p>
+          <a
+            href="..."
+            className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
+          >
+            Browse Now
+          </a>
+        </div>
 
       {/* Beacon */}
-      <div className="bg-white p-6 rounded-lg shadow-md text-center">
-        <img
-          src="https://avatars.githubusercontent.com/u/33450937?s=200&v=4"
-          alt="Beacon"
-          className="mx-auto h-20 mb-4"
-        />
-        <h2 className="text-2xl font-bold text-[#003865] mb-2">Danish Beacon</h2>
-        <p className="text-gray-600 mb-4">
+      <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
+          <img
+            src="https://avatars.githubusercontent.com/u/33450937?s=200&v=4"
+            alt="Beacon"
+            className="mx-auto h-20 mb-4"
+          />
+          <h2 className="text-2xl font-bold text-[#003865] mb-2">Danish Beacon</h2>
+          <p className="text-gray-600 mb-4 flex-grow">
           Discover Danish Human Genomic data securely with the GA4GH Beacon protocol.
-        </p>
-        <a
-          href="/beacon"
-          className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
-        >
-          Learn More
-        </a>
-      </div>
+          </p>
+          <a
+            href="..."
+            className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
+          >
+            Learn More
+          </a>
+        </div>
 
-      {/* Data Quality Portal */}
-      <div className="bg-white p-6 rounded-lg shadow-md text-center">
-        <img
-          src="https://www.rigshospitalet.dk/english/departments/centre-of-diagnostic-investigation/department-of-genomic-medicine/PublishingImages/genomic-medicine.jpg"
-          alt="Data Quality"
-          className="mx-auto h-20 mb-4"
-        />
-        <h2 className="text-2xl font-bold text-[#003865] mb-2">Data Quality Portal</h2>
-        <p className="text-gray-600 mb-4">
+
+      {/* Data Quality Portal  */}
+      <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
+          <img
+            src="https://www.rigshospitalet.dk/english/departments/centre-of-diagnostic-investigation/department-of-genomic-medicine/PublishingImages/genomic-medicine.jpg"
+            alt="Beacon"
+            className="mx-auto h-20 mb-4"
+          />
+          <h2 className="text-2xl font-bold text-[#003865] mb-2">Data Quality Portal</h2>
+          <p className="text-gray-600 mb-4 flex-grow">
           Explore DenGen's Data Quality Portal, designed to provide generic quality control reports over the cohort files.
-        </p>
-        <a
-          href="/landing"
-          className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
-        >
-          Access Portal
-        </a>
-      </div>
+          </p>
+          <a
+            href="..."
+            className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
+          >
+            Access Portal
+          </a>
+        </div>
     </div>
 
     {/* Call to Action 
