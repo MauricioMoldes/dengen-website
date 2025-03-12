@@ -13,7 +13,7 @@ function NotFoundPage() {
         alt="404 - Not Found"
         className="w-3/4 md:w-1/2"
       />
-      <h1 className="text-4xl font-bold mt-6 text-red-600">Oops! Page not found</h1>
+      <h1 className="text-4xl font-bold mt-6 text-blue-600">Oops! Page not found</h1>
       <p className="text-lg mt-4 text-gray-700">
         We can't seem to find the page you're looking for.
       </p>
