@@ -49,7 +49,7 @@ const Features = () => {
        {/* Alllele Frequency Browser */}
      <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
           <img
-            src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHx8MA%3D%3D"
+            src="/allele_frequency_browser.png"
             alt="Allele Frequency Browser"
             className="mx-auto h-20 mb-4"
           />
@@ -77,7 +77,7 @@ const Features = () => {
           Discover Danish Human Genomic data securely with the GA4GH Beacon protocol.
           </p>
           <a
-            href="http://10.62.55.108:8082"
+            href="/beacon"
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
           >
             Learn More
