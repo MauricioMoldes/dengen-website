@@ -29,11 +29,11 @@ const Features = () => {
       
      
       <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
-          /*<img
+	  {/*<img
 	  src="https://cdn.prod.website-files.com/6557d9d36f0cbdfaf4b51869/6563b41fe7d1a2bc1fe1619d_6552a843a3c6ebfd1a66aaf3_zW5h3RBfIW7TbOM3IlXVTDWBR6Ub_WVRAmiw16E8T-np7Aa6Gg4v21pi7s-bmGHgy_OXKxNE-MD85_g-Hjmhr_spPG8rxxCh8tcGjsiTaHjv_bpO0sN3rtzA11JQYBOfY7GTr7x_j_d8f8-YWWdm0rY.png"
             alt="Allele Frequency Browser"
             className="mx-auto h-20 mb-4"
-          />*/
+          />*/}
           <h2 className="text-2xl font-bold text-[#003865] mb-2">Genome Agreggation Browser</h2>
           <p className="text-gray-600 mb-4 flex-grow">
           Explore DenGen's aggregated and harmonized exome and genome sequencing data as well as summary data.
@@ -48,11 +48,11 @@ const Features = () => {
 
        {/* Alllele Frequency Browser */}
      <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
-          /*<img
+	  {/*<img
             src="/allele_frequency_browser.png"
             alt="Allele Frequency Browser"
             className="mx-auto h-20 mb-4"
-          />*/
+          />*/}
           <h2 className="text-2xl font-bold text-[#003865] mb-2">Allele Frequency Browser</h2>
           <p className="text-gray-600 mb-4 flex-grow">
           Discover allele frequency insights in DenGen’s harmonized genomic dataset, enabling population-scale variant exploration.
@@ -67,11 +67,11 @@ const Features = () => {
 
       {/* Beacon */}
       <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
-          /*<img
+	  {/*<img
             src="https://avatars.githubusercontent.com/u/33450937?s=200&v=4"
             alt="Beacon"
             className="mx-auto h-20 mb-4"
-          />*/
+          />*/}
           <h2 className="text-2xl font-bold text-[#003865] mb-2">Danish Beacon</h2>
           <p className="text-gray-600 mb-4 flex-grow">
           Discover Danish Human Genomic data securely with the GA4GH Beacon protocol.
@@ -87,11 +87,11 @@ const Features = () => {
 
       {/* Data Quality Portal  */}
       <div className="bg-white p-6 rounded-lg shadow-md text-center flex flex-col">
-          /*<img
+	  {/*<img
             src="https://www.rigshospitalet.dk/english/departments/centre-of-diagnostic-investigation/department-of-genomic-medicine/PublishingImages/genomic-medicine.jpg"
             alt="Beacon"
             className="mx-auto h-20 mb-4"
-          />*/
+          />*/}
           <h2 className="text-2xl font-bold text-[#003865] mb-2">Data Quality Portal</h2>
           <p className="text-gray-600 mb-4 flex-grow">
           Explore DenGen's Data Quality Portal, designed to provide generic quality control reports over the cohort files.
