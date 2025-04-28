@@ -89,41 +89,42 @@ const [showInfo, setShowInfo] = useState(null); // Track which image info is bei
       </header>
     </div>
     
-	 <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center">
-     
+    <div className="min-h-screen bg-gray-100 p-6 flex flex-col items-center">
+  <main className="flex flex-col items-center space-y-6">
+    {images.map((image, index) => (
+      <div key={index} className="bg-white rounded-lg shadow-md p-4 w-11/12 max-w-6xl relative">
+        {/* Info Icon */}
+        <button
+          onClick={() => toggleInfo(index)}
+          className="absolute top-4 right-4 text-xl text-blue-500 hover:text-blue-600"
+        >
+          ℹ️
+        </button>
 
-      <main className="flex flex-col items-center space-y-6">
-        {images.map((image, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-md p-4 w-11/12 max-w-6xl relative">
-            {/* Info Icon */}
-            <button
-              onClick={() => toggleInfo(index)}
-              className="absolute top-4 right-4 text-xl text-blue-500 hover:text-blue-600"
-            >
-              ℹ️
-            </button>
+        <p className="mt-4 text-xl text-gray-700 text-center">{image.legend}</p>
 
-            <p className="mt-4 text-xl text-gray-700 text-center">{image.legend}</p>
+        {/* Image Wrapper */}
+        <div className="relative">
+          <img
+            src={image.src}
+            alt={`Quality Control ${index + 1}`}
+            className="w-full h-full object-cover rounded"
+          />
 
-            {/* Image */}
-            <img
-              src={image.src}
-              alt={`Quality Control ${index + 1}`}
-              className="w-full h-auto rounded"
-              style={{ maxWidth: '1000px' }} // Image max width
-            />
-           
+      {/* Overlay to cover sample name with extended width */}
+      <div className="absolute top-2 left-[-0%] right-[-0%] h-7 bg-white" />
+        </div>
 
-            {/* Info Card */}
-            {showInfo === index && (
-              <div className="mt-4 bg-gray-50 p-4 rounded-lg shadow-md">
-                <p className="text-sm text-gray-800">{image.info}</p>
-              </div>
-            )}
+        {/* Info Card */}
+        {showInfo === index && (
+          <div className="mt-4 bg-gray-50 p-4 rounded-lg shadow-md">
+            <p className="text-sm text-gray-800">{image.info}</p>
           </div>
-        ))}
-      </main>
-    </div>
+        )}
+      </div>
+    ))}
+  </main>
+</div>
 
 
     </Layout>
