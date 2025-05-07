@@ -165,6 +165,20 @@ const nextImage = () => {
         <h3 className="text-xl font-semibold text-gray-700">Variant Calling Reference </h3>
         <p className="text-3xl font-bold text-blue-600">GRCh38</p>
       </div>
+
+      {/* Countries Represented */}
+      <div className="bg-white p-6 rounded-lg shadow-md">
+              <h3 className="text-xl font-semibold text-gray-700">Number of Files </h3>
+              <p className="text-3xl font-bold text-blue-600">13.266 Files</p>
+      </div>
+
+      {/* Countries Represented */}
+     <div className="bg-white p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold text-gray-700">Dataset Size </h3>
+        <p className="text-3xl font-bold text-blue-600">303 TB</p>
+      </div>
+
+      
       
 
       {/* Research Collaborators */}

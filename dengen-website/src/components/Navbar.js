@@ -54,12 +54,26 @@ const Navbar = () => {
               </div>
             </li>
 
-            {/* Links to other pages */}
-            <li>
-            <Link to="http://10.62.55.87:8008/" target="_blank" className="text-white hover:underline" >Genome Browser</Link></li>
-            <li> <Link to="http://10.62.55.108:3001/" target="_blank" className="text-white hover:underline" >Allele Frequency Browser</Link> </li>
-            <li> <Link to="/beacon" target="_blank" className="text-white hover:underline" >Beacon Page</Link> </li>
-            <li> <Link to="/landing" target="_blank" className="text-white hover:underline" >Data Quality Portal</Link> </li>
+            {/* About Dropdown Menu */}
+            <li className="relative group">
+              <button className="text-white hover:underline">
+                Tooling
+              </button>
+
+              {/* Dropdown Menu */}
+              <div className="absolute left-0 hidden bg-[#003865] shadow-lg w-56 rounded-md group-hover:block">
+                <ul
+                  className="text-white py-2"
+                  onMouseEnter={(e) => e.stopPropagation()} // Ensures the dropdown stays open
+                  onMouseLeave={(e) => e.stopPropagation()} // Prevents premature closure
+                >
+                  <li><Link to="http://10.62.55.87:8008/" target="_blank" className="block px-4 py-2 hover:bg-blue-600" >Genome Aggregation Browser</Link></li>
+                  <li><Link to="http://10.62.55.108:3001/" target="_blank" className="block px-4 py-2 hover:bg-blue-600" >Allele Frequency Browser</Link></li>
+                  <li><Link to="/beacon" target="_blank" className="block px-4 py-2 hover:bg-blue-600" >Danish Beacon</Link></li>
+                  <li><Link to="/landing" target="_blank"  className="block px-4 py-2 hover:bg-blue-600" >Data Quality Portal</Link></li>                
+                </ul>
+              </div>
+            </li>           
           </ul>
         </div>
       </nav>

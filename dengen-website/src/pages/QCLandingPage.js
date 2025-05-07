@@ -31,12 +31,12 @@ const QCLandingPage = () => {
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
             <div className="text-4xl text-green-600 mb-2">📦</div>
             <h2 className="text-lg font-semibold">Dataset Size</h2>
-            <p className="text-gray-600">1TB</p>
+            <p className="text-gray-600">303 TB</p>
           </div>
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
             <div className="text-4xl text-green-600 mb-2">📂</div>
             <h2 className="text-lg font-semibold">Total Files</h2>
-            <p className="text-gray-600">8,844 Files</p>
+            <p className="text-gray-600">13.266 Files</p>
           </div>         
         </div>
 
@@ -57,7 +57,7 @@ const QCLandingPage = () => {
             <thead className="bg-black text-white">
               <tr>
                 <th className="px-4 py-2 text-left border border-white">Filename</th>
-                <th className="px-4 py-2 text-left border border-white">Paired Reads Reports</th>
+                <th className="px-4 py-2 text-left border border-white">Reads Reports</th>
                 <th className="px-4 py-2 text-left border border-white">Alignments Report</th>
                 <th className="px-4 py-2 text-left border border-white">Variants Report</th>
               </tr>
