@@ -5,7 +5,7 @@ function BeaconPage() {
   return (
     <Layout>
     <div className="container mx-auto py-8">
-      <h1 className="text-4xl font-bold text-center mb-6">Beacon: A Gateway to Danish Genomic Data</h1>
+      <h1 className="text-4xl font-bold text-center mb-6">DenGen Beacon: A Gateway to Danish Genomic Data</h1>
 
       <div className="bg-white p-6 rounded-lg shadow-md">
         {/* Introduction Section */}
@@ -61,7 +61,7 @@ function BeaconPage() {
             href="http://10.62.55.108:8082"  target="_blank"           
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
           >
-            Access the Beacon
+            Access the DenGen Beacon
           </a>
         </div>
       </div>

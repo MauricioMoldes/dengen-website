@@ -88,9 +88,16 @@ const nextImage = () => {
     <section className="bg-blue-100 py-2 text-center rounded-lg ">
     
     <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-6">
-      {/* Number of Participants */}
+
+    {/* Number of Participants */}
+    <div className="bg-white p-6 rounded-lg shadow-md">
+        <h3 className="text-xl font-semibold text-gray-700">Cohort Size</h3>
+        <p className="text-3xl font-bold text-blue-600">2,916</p>
+      </div>
+
+      {/* Number of Unrelated Partipants */}
       <div className="bg-white p-6 rounded-lg shadow-md">
-        <h3 className="text-xl font-semibold text-gray-700">Participants</h3>
+        <h3 className="text-xl font-semibold text-gray-700">Unrelated Participants</h3>
         <p className="text-3xl font-bold text-blue-600">2,211</p>
       </div>
 
