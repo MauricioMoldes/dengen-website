@@ -184,20 +184,18 @@ const nextImage = () => {
         <h3 className="text-xl font-semibold text-gray-700">Dataset Size </h3>
         <p className="text-3xl font-bold text-blue-600">303 TB</p>
       </div>
-
-      
-      
+         
 
       {/* Research Collaborators */}
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-gray-700">Research Collaborators</h3>
-        <p className="text-3xl font-bold text-blue-600">2 Institutes</p>
+        <p className="text-3xl font-bold text-blue-600">Rigshospitalet, Danish National Genome Center</p>
       </div>
 
       {/* Countries Represented */}
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h3 className="text-xl font-semibold text-gray-700">Countries Represented</h3>
-        <p className="text-3xl font-bold text-blue-600">1</p>
+        <p className="text-3xl font-bold text-blue-600">Denmark</p>
       </div>    
       </div>
 

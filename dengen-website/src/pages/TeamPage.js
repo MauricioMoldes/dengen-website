@@ -70,6 +70,14 @@ function TeamPage() {
       bio: "Javiera Carmona contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
       image: "https://media.licdn.com/dms/image/v2/C4E03AQF65uHv1pSz6A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1650738837009?e=1752710400&v=beta&t=vviNojLV8QA6-c_jASTJE4OJcIALp8TXtNqYpJTi2Bg",
     },
+    {
+      name: "Rasmus Lykke Marvig",
+      role: "Genomics Researcher",
+      bio: "Rasmus Lykke Marvig contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      image: "https://media.licdn.com/dms/image/v2/D4D03AQH_ISqSkELZUg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1725607462866?e=1756944000&v=beta&t=mtX78eb87uXxKbvk446-AX_hyxsKLmyK0Mx-UqKgC8w",
+    }
+
+    
 
     
   ];
