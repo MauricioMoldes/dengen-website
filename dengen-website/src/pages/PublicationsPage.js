@@ -15,7 +15,7 @@ function PublicationsPage() {
     <h2 className="text-2xl font-semibold text-[#003865] mb-4">Overview</h2>    
       
     <p className="text-gray-600 mb-6">
-      The DenGen Genome Aggregation Browser is proud to support scientific advancements by providing access to a comprehensive dataset of genomic variants. Below, you will find key statistics about DenGen's impact and a list of publications that have cited or utilized DenGen data.
+       Below, you will find key statistics about DenGen's impact and a list of publications that have cited or utilized DenGen data.
     </p>
   
 
@@ -24,7 +24,7 @@ function PublicationsPage() {
     <h2 className="text-2xl font-semibold text-[#003865] mb-4">Statistics</h2>
     <ul className="text-gray-600 mb-6 list-disc list-inside">
       <li>Total Papers Citing DenGen: <span className="font-bold">0 (Dataset release pending)</span></li>
-      <li>Fields of Research: <span className="font-bold">Genomics, Clinical Diagnostics, Personalized Medicine</span></li>
+     {/* <li>Fields of Research: <span className="font-bold">Genomics, Clinical Diagnostics, Personalized Medicine</span></li>*/}
       <li>Most Recent Publication: <span className="font-bold">NA</span></li>
     </ul>
   

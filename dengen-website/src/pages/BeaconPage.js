@@ -19,6 +19,11 @@ function BeaconPage() {
           <li><strong>Interoperability:</strong> Supports integration across global genomic initiatives.</li>
         </ul>
 
+       <p className="text-gray-600 mb-6">
+          Read more about <a href="https://www.ga4gh.org/product/beacon-api/" className="text-[#003865] hover:underline">GA4GH Beacon API</a>.
+        </p>
+        
+
         {/* DenGen Beacon Implementation Section */}
         <h2 className="text-2xl font-semibold text-[#003865] mb-4">DenGen’s Beacon Implementation</h2>
         <p className="text-gray-600 mb-4">

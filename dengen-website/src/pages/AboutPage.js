@@ -53,15 +53,17 @@ function AboutPage() {
           <li>Aggregation of variant frequencies specific to the Danish population to improve genetic analysis and filtering.</li>
         </ul>
 
+         <p className="text-gray-600 mb-6">
+          Learn more about the <a href="/pipelines" className="text-[#003865] hover:underline">DenGen Pipelines</a>.
+        </p>
+
         <h3 className="text-xl font-semibold text-[#003865] mb-4">Collaborations and Partners</h3>
         <p className="text-gray-600 mb-6">
           DenGen is the result of collaborative efforts between leading research institutions, healthcare providers, and funding bodies. Our partners include:
         </p>
-        <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">
-          <li><strong>Novo Nordisk Foundation</strong>: Funding and support for the development of genomic technologies and infrastructure.</li>
-          <li><strong>Rigshospitalet</strong>: Clinical and research collaboration to ensure the dataset is aligned with clinical needs.</li>
-          <li><strong>University of Copenhagen</strong>: Academic collaboration on the analysis and interpretation of genomic data.</li>
-          <li><strong>Danish National Genome Center (NGC)</strong>: Hosting the DenGen database and providing infrastructure for large-scale data storage and analysis.</li>
+        <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">          
+          <li><strong>Rigshospitalet</strong>:  The Department of Genomic Medicine at Rigshospitalet was responsible for generating the sequencing data and performing primary data analysis. Their clinical expertise and laboratory infrastructure ensured high-quality data production, while their bioinformatics team contributed to variant calling and interpretation, ensuring the dataset's relevance to diagnostic and translational research.</li>         
+          <li><strong>Danish National Genome Center (NGC)</strong>: The NGC provided the computational infrastructure necessary for large-scale data processing, analysis, and long-term storage. This included secure high-performance computing resources and data hosting platforms that enabled efficient handling of the entire DenGen dataset.</li>
         </ul>
 
         <h3 className="text-xl font-semibold text-[#003865] mb-4">Contact Us</h3>
@@ -69,81 +71,6 @@ function AboutPage() {
           If you have questions, want to collaborate, or would like more information about DenGen, please visit our <a href="/contact" className="text-[#003865] hover:underline">Contact Page</a>.
         </p>
       </div>
-
-
-      <h3 className="text-xl font-semibold text-[#003865] mb-4">Overview</h3>
-        <p className="text-gray-600 mb-6">
-        DenGen is a national reference initiative aimed at characterizing the genetic diversity of the Danish population through high-coverage whole-genome sequencing (WGS). This documentation outlines the scientific principles, technological pipelines, and data policies behind the DenGen project. DenGen serves as a reference dataset for clinical genetics, rare disease diagnosis, and genome-wide studies across biomedical research.
-        </p>
-
-        <h3 className="text-xl font-semibold text-[#003865] mb-4">Objectives</h3>
-       
-        <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">
-        <li>Generate a population-scale catalogue of genetic variants—both single-nucleotide variants (SNVs) and structural variants (SVs)—from Danish individuals.</li>
-        <li>Establish allele frequency benchmarks for clinical filtering.</li>
-        <li>Identify population-specific variants that could affect disease prevalence, penetrance, or pharmacogenetics.</li>
-        <li>Enable harmonization with international resources such as gnomAD, SweGen, and FinnGen.</li>
-        </ul>
-       
-
-        <h3 className="text-xl font-semibold text-[#003865] mb-4">Cohort Design</h3>
-        
-        <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">
-        <li><strong>Number of Individuals</strong>: 2,916 Danish individuals were initially sequenced. After relationship inference and quality filtering, 2,211 unrelated individuals were retained to construct the reference dataset.</li>
-        <li><strong>Population Representation</strong>: Individuals were sampled to broadly reflect the Danish population across age, sex, and regional distribution, primarily from routine clinical sequencing with informed consent for anonymized secondary use.
-        </li>
-        </ul>
-        
-        
-        <h3 className="text-xl font-semibold text-[#003865] mb-4">Sequencing and Library Preparation</h3>
-       
-        <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">
-        <li><strong>Platform</strong>: Illumina NovaSeq 6000 </li>
-        <li><strong>Read Type </strong>: Paired-end 150 bp reads (PE150) </li>
-        <li><strong>Coverage</strong>: Minimum 30x average depth per genome </li>
-        <li><strong>Library Protocol</strong>: Illumina DNA PCR-Free, Tagmentation-based library preparation to reduce bias and improve uniformity</li>
-        <li><strong>Coverage</strong>: Minimum 30x average depth per genome </li>
-        <li><strong>Quality Metrics</strong>: Samples required ≥90% of bases at ≥20x depth and Q30 scores ≥ 85% across both reads</li>
-        </ul>
-      
-
-        <h3 className="text-xl font-semibold text-[#003865] mb-4">Bioinformatics Pipeline</h3>
-
-        <p className="text-gray-600 mb-6">
-        All data processing follows best-practice standards to ensure reproducibility and compatibility with global resources.
-        </p>
-
-        <h4 className="text-xl font-semibold text-[#003865] mb-4">SNV and Indel Calling</h4>
-        
-        <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">
-        <li><strong>Tool</strong>: GATK HaplotypeCaller (GVCF mode) </li>
-        <li><strong>Joint Genotyping</strong>: Performed using GATK’s GenomicsDBImport and GenotypeGVCFs</li>
-        <li><strong>Variant Quality Score Recalibration (VQSR)</strong>: Applied to filter low-confidence SNVs and indels </li>
-        </ul>
-
-        <h4 className="text-xl font-semibold text-[#003865] mb-4">Structural Variant (SV) Detection</h4>
-        <p className="text-gray-600 mb-6">
-        <strong>Consensus Approach</strong>: To improve sensitivity and precision, four independent SV callers were used:
-        </p>
-        
-        <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">
-        <li><strong>Delly</strong></li>
-        <li><strong>Manta</strong> </li>
-        <li><strong>Lumpy</strong></li>
-        <li><strong>CNVnator</strong></li>
-        </ul>
-             
-        <h4 className="text-xl font-semibold text-[#003865] mb-4">Annotation</h4>
-        
-        <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">
-        <li><strong>Tool</strong>:  Ensembl Variant Effect Predictor (VEP) </li>
-        <li><strong>Content</strong>: Annotations include functional consequence, allele frequency from gnomAD, ClinVar pathogenicity, and conservation scores</li>
-        <li><strong>Custom Annotations</strong>: Additional DenGen-specific population frequencies and support tags from SV consensus callers </li>
-        </ul>
-
-        
-
-
 
         
     </div>
