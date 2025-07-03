@@ -12,8 +12,8 @@ function DataAccessPage() {
       {/* Governing Law */}  
       <h2 className="text-2xl font-semibold text-[#003865] mb-4">Overview</h2>
     <p className="text-gray-600 mb-6">
-    You can only request access to, and download, summary files here, if you want access to the underlying individual data you need to contact Data Centre.
-    You need to login to request access to the summary files.  
+    DenGen contains sensitive patient data collected from hospital sources. Due to privacy and ethical considerations, no summary or individual-level data are directly available for download from this site.
+If you wish to request access to DenGen data for research purposes, please contact us directly. We will guide you through the appropriate procedures and requirements for data access.
     </p>  
 
      {/* Contact Information */} 

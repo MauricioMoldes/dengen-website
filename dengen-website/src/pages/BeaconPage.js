@@ -5,23 +5,28 @@ function BeaconPage() {
   return (
     <Layout>
     <div className="container mx-auto py-8">
-      <h1 className="text-4xl font-bold text-center mb-6">DenGen Beacon: A Gateway to Danish Genomic Data</h1>
+     <h1 className="text-4xl font-bold text-center mb-6">DenGen Beacon: A Gateway to Danish Genomic Data</h1>
 
-      <div className="bg-white p-6 rounded-lg shadow-md">
-        {/* Introduction Section */}
-        <h2 className="text-2xl font-semibold text-[#003865] mb-4">What is the GA4GH Beacon Protocol?</h2>
-        <p className="text-gray-600 mb-4">
-          The Global Alliance for Genomics and Health (GA4GH) Beacon Protocol is a standardized framework designed to facilitate the discovery of genomic data. It allows researchers to query genomic datasets to determine whether a dataset contains specific genetic variants of interest, all while maintaining privacy and security.
-        </p>
-        <ul className="list-disc pl-6 text-gray-600 mb-6">
-          <li><strong>Standardized Queries:</strong> Simplifies access to diverse genomic datasets.</li>
-          <li><strong>Privacy-Focused:</strong> Ensures user queries do not compromise individual privacy.</li>
-          <li><strong>Interoperability:</strong> Supports integration across global genomic initiatives.</li>
-        </ul>
+  <div className="bg-white p-6 rounded-lg shadow-md">
+    {/* Introduction Section */}
+    <h2 className="text-2xl font-semibold text-[#003865] mb-4">What is the GA4GH Beacon Protocol?</h2>
 
-       <p className="text-gray-600 mb-6">
-          Read more about <a href="https://www.ga4gh.org/product/beacon-api/" className="text-[#003865] hover:underline">GA4GH Beacon API</a>.
-        </p>
+    {/* Add logo here */}
+    <div className="flex justify-center mb-6">
+      <img 
+        src="https://ega-archive.org/assets/img/GA-logo-horizontal-tag-RGB.svg" 
+        alt="GA4GH Logo" 
+        className="h-36 object-contain" 
+      />
+    </div>
+
+    <p className="text-gray-600 mb-4">
+      The <a href="https://www.ga4gh.org/" className="text-[#003865] hover:underline">Global Alliance for Genomics and Health (GA4GH) </a> Beacon API Beacon Protocol is a standardized framework designed to facilitate the discovery of genomic data. It allows researchers to query genomic datasets to determine whether a dataset contains specific genetic variants of interest, all while maintaining privacy and security.
+    </p>
+
+    <p className="text-gray-600 mb-6">
+      Read more about <a href="https://www.ga4gh.org/product/beacon-api/" className="text-[#003865] hover:underline">GA4GH Beacon API</a>.
+    </p>
         
 
         {/* DenGen Beacon Implementation Section */}
@@ -36,7 +41,7 @@ function BeaconPage() {
         </ul>
 
         {/* National Beacon Section */}
-        <h2 className="text-2xl font-semibold text-[#003865] mb-4">Beyond DenGen – A National Beacon</h2>
+        <h2 className="text-2xl font-semibold text-[#003865] mb-4">Beyond DenGen : A National Beacon</h2>
         <p className="text-gray-600 mb-4">
           While the DenGen Beacon hosts data from the DenGen project, it also serves as a foundation for a broader Danish Beacon initiative. This ambitious effort aims to:
         </p>
@@ -49,26 +54,32 @@ function BeaconPage() {
         {/* How to Use Section */}
         <h2 className="text-2xl font-semibold text-[#003865] mb-4">How to Use the DenGen Beacon</h2>
         <p className="text-gray-600 mb-4">
-          Users can access the DenGen Beacon through an intuitive interface designed for ease of use. Key features include:
+          Users can access the DenGen Beacon through an intuitive interface designed for ease of use. 
         </p>
-        <ul className="list-disc pl-6 text-gray-600 mb-6">
-          <li><strong>Query Submission:</strong> Search for specific genetic variants or genomic regions.</li>
-          <li><strong>Detailed Responses:</strong> Receive aggregated data without compromising individual privacy.</li>
-          <li><strong>Interactive Tools:</strong> Visualize results and integrate findings into broader research workflows.</li>
-        </ul>
 
-        {/* Call to Action Section */}
-        <div className="text-center mt-6">
-          <p className="text-gray-600 mb-4">
-            "Discover the power of genomic data. Explore the DenGen Beacon today and join us in advancing genomic research for Denmark and beyond."
-          </p>
-          <a
+         <div className="text-center mt-6">
+        <a
             href="http://10.62.55.108:8082"  target="_blank"           
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
           >
-            Access the DenGen Beacon
+            Access the DenGen Beacon Interface
           </a>
         </div>
+
+        {/* API Section */}
+<h3 className="text-xl font-semibold text-[#003865] mb-3">API Endpoints</h3>
+<p className="text-gray-700 mb-2">
+  The DenGen Beacon API provides programmatic access to genomic variant queries. You can access the API at:
+</p>
+<code className="block bg-gray-100 p-3 rounded font-mono text-sm text-[#003865] mb-4">
+  http://10.62.55.108:5050/api
+</code>
+
+<p className="text-gray-600">
+  For detailed API documentation and query parameters, please refer to the <a href="https://docs.genomebeacons.org/" className="text-[#003865] hover:underline">GA4GH Beacon v2 Specification</a>.
+</p> 
+
+      
       </div>
     </div>
     </Layout>

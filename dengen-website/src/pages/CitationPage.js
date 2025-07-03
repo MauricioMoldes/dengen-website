@@ -9,30 +9,34 @@ function CitationPage() {
 
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-[#003865] mb-4">How to Cite DenGen</h2>
-        <p className="text-gray-600 mb-4">
+        {/*<p className="text-gray-600 mb-4">
           We are pleased that you are referencing DenGen in your work. Below are the recommended citation formats for different types of publications. Please use the appropriate format depending on the type of resource you are citing.
-        </p>
+        </p>*/}
+          <p className="text-gray-600 mb-4">
+           A formal publication describing DenGen is forthcoming. In the meantime, we recommend the following provisional citation formats for acknowledging DenGen in your publications, presentations, or other academic work.
+          </p>
+
 
         {/* Citation Formats */}
         <div className="space-y-6">
           <div>
             <h3 className="text-xl font-semibold text-[#003865]">APA Style:</h3>
             <p className="text-gray-600">
-              Doe, J., Smith, J., Johnson, A., Lee, B., & White, E. (2025). DenGen: The Danish Genomic Database for Clinical and Research Applications. <em>DenGen Research Institute</em>. Available at <a href="https://www.dengen.com" className="text-[#003865] hover:underline">https://www.dengen.com</a>
+              DenGen Research Team. (2025). DenGen: The Danish Genomic Database for Clinical and Research Applications. Available at <a href="https://www.dengen.dk" className="text-[#003865] hover:underline">https://www.dengen.dk</a>
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-[#003865]">MLA Style:</h3>
             <p className="text-gray-600">
-              Doe, Jane, et al. "DenGen: The Danish Genomic Database for Clinical and Research Applications." <em>DenGen Research Institute</em>, 2025. <a href="https://www.dengen.com" className="text-[#003865] hover:underline">https://www.dengen.com</a>.
+             DenGen Research Team. "DenGen: The Danish Genomic Database for Clinical and Research Applications." 2025. <a href="https://www.dengen.dk" className="text-[#003865] hover:underline">https://www.dengen.dk</a>.
             </p>
           </div>
 
           <div>
             <h3 className="text-xl font-semibold text-[#003865]">Chicago Style:</h3>
             <p className="text-gray-600">
-              Doe, Jane, John Smith, Alice Johnson, Bob Lee, and Emily White. 2025. "DenGen: The Danish Genomic Database for Clinical and Research Applications." <em>DenGen Research Institute</em>. Accessed January 13, 2025. <a href="https://www.dengen.com" className="text-[#003865] hover:underline">https://www.dengen.com</a>
+             DenGen Research Team. 2025. "DenGen: The Danish Genomic Database for Clinical and Research Applications." Accessed January 13, 2025. <a href="https://www.dengen.dk" className="text-[#003865] hover:underline">https://www.dengen.dk</a>
             </p>
           </div>
 
@@ -41,29 +45,20 @@ function CitationPage() {
   <pre className="bg-gray-100 p-4 rounded-md font-mono text-gray-600">
     {`
       @misc{denGen2025,
-        author = {Jane Doe and John Smith and Alice Johnson and Bob Lee and Emily White},
+        author = {DenGen Research Team},
         title = {DenGen: The Danish Genomic Database for Clinical and Research Applications},
-        year = {2025},
-        publisher = {DenGen Research Institute},
-        url = {https://www.dengen.com}
+        year = {2025},       
+        url = {https://www.dengen.dk}
       }
     `}
   </pre>
 </div>
-        </div>
-
-        {/* Acknowledgements Section */}
-        <div className="mt-6">
-          <h3 className="text-xl font-semibold text-[#003865]">Acknowledgments</h3>
-          <p className="text-gray-600">
-            DenGen is funded by the Novo Nordisk Foundation and supported by the Danish National Genome Center (NGC). We also thank the research participants for their contributions to this important project.
-          </p>
-        </div>
+        </div>       
 
         {/* Footer Information */}
         <div className="mt-6">
           <p className="text-gray-600">
-            For further information on how to cite or use DenGen, please contact us at <a href="mailto:info@dengen.com" className="text-[#003865] hover:underline">info@dengen.com</a>.
+            For further information on how to cite or use DenGen, please <a href="/contact" className="text-[#003865] hover:underline">contact us</a>
           </p>
         </div>
       </div>
