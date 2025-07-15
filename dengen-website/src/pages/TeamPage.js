@@ -7,73 +7,73 @@ function TeamPage() {
     {
       name: "Frederik Otzen Bagger",
       role: "Project Lead",
-      bio: "Frederik Bagger is an experienced bioinformatician specializing in genomic data analysis. She leads the DenGen project, overseeing the research and ensuring the accuracy of the dataset.",
+      bio: "",
       image: `Frederik_Bagger.jpg`
     },
     {
       name: "Christian Baudet",
       role: "Senior Bioinformatician",
-      bio: "Christian Baudet brings expertise in computational biology and genetic variant interpretation. He works on the pipelines and quality control processes for the DenGen database.",
+      bio: "",
       image: `Christian_Baudet.jpg`
     },
     {
       name: "Luca Robinson",
       role: "Genomics Researcher",
-      bio: "Luca Robinson is responsible for analyzing large-scale genomic datasets and developing machine learning models to interpret the DenGen data.",
+      bio: "",
       image: `Luca_Robsinson.jpg`
     },
     {
       name: "Andreas Jespersen",
       role: "Genomics Researcher",
-      bio: "Andreas Jespersen focuses on the development of the DenGen website and its various features, ensuring seamless user experience and performance.",
+      bio: "",
       image: `andreas_jesperson.jpg`
     },    
     {
       name: "Mauricio Moldes",
       role: "Senior Software Engineer",
-      bio: "Mauricio Moldes contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      bio: "",
       image: `mauricio_moldes.jpg`
     },
     {
       name: "Gül Sude Demircan",
       role: "Genomics Researcher",
-      bio: "Gül Demircan contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      bio: "",
       image: `gul_sude.jpg`
     },
     {
       name: "Xin Sun",
       role: "Senior Software Engineer",
-      bio: "Xin Sun contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      bio: "",
       image: `xin_sun.jpg`
     },
     {
-      name: "Miyako Kodama Henriksen",
+      name: "Miyako Henriksen",
       role: "Genomics Researcher",
-      bio: "Miyako Henriksen contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      bio: "",
       image: `Miyako_Henriksen.jpg`
     },    
     {
       name: "Filipe Garrett Vieira",
       role: "Genomics Researcher",
-      bio: "Filipe Garrett Vieira contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      bio: "",
       image: `Filipe_Vieira.jpg`
     },
     {
-      name: "Tobias Overlund Stannius",
+      name: "Tobias Stannius",
       role: "Genomics Researcher",
-      bio: "Tobias  Stannius contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      bio: "",
       image: `Tobas_Stannius.jpg`
     },
     {
       name: "Javiera Laing Carmona",
       role: "Genomics Researcher",
-      bio: "Javiera Carmona contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      bio: "",
       image: `Javiera_Carmona.jpg`
     },
     {
       name: "Rasmus Lykke Marvig",
       role: "Genomics Researcher",
-      bio: "Rasmus Lykke Marvig contributes to the scientific research aspect of DenGen, focusing on genomics, variant calling, and collaboration with clinical researchers.",
+      bio: "",
       image: `Rasmus_Marvig.jpg`
     }
 

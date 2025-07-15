@@ -13,18 +13,18 @@ const images = [
     src: "dengen.png",
     title: "Age and Gender Distribution",
   },
-  {
-    src: "dengen_2211_merged.png",
-    title: "Ancestry Distribution",
-  },
-  {
-    src: "dengen_2211_merged_rotx_90.png",
-    title: "Ancestry Distribution",
-  },
-  {
-    src: "1000g_dengen_2211_merged.png",
-    title: "Ancestry Distribution with 1000 Genomes Phase3",
-  },
+  //{
+  //  src: "dengen_2211_merged.png",
+  //  title: "Ancestry Distribution",
+  //},
+  //{
+  //  src: "dengen_2211_merged_rotx_90.png",
+  //  title: "Ancestry Distribution",
+  //},
+  //{
+  //  src: "1000g_dengen_2211_merged.png",
+  //  title: "Ancestry Distribution with 1000 Genomes Phase3",
+  //},
   {
     src: "sequencing_depth_histogram_with_density.png",
     title: "Average Sequencing Depth",
