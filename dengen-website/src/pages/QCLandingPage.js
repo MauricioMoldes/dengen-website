@@ -22,23 +22,7 @@ const QCLandingPage = () => {
       <div className="min-h-screen bg-gray-100">      
 
       <div className="container mx-auto p-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          <div className="bg-white shadow-md rounded-lg p-6 text-center">
-            <div className="text-4xl text-green-600 mb-2">🧪</div>
-            <h2 className="text-lg font-semibold">Number of samples</h2>
-            <p className="text-gray-600">2.211</p>
-          </div>
-          <div className="bg-white shadow-md rounded-lg p-6 text-center">
-            <div className="text-4xl text-green-600 mb-2">📦</div>
-            <h2 className="text-lg font-semibold">Dataset Size</h2>
-            <p className="text-gray-600">303 TB</p>
-          </div>
-          <div className="bg-white shadow-md rounded-lg p-6 text-center">
-            <div className="text-4xl text-green-600 mb-2">📂</div>
-            <h2 className="text-lg font-semibold">Total Files</h2>
-            <p className="text-gray-600">13.266 Files</p>
-          </div>         
-        </div>
+        
 
         <div className="grid grid-cols-1 md:grid-cols-1 gap-4 mb-8">
           <div className="bg-white shadow-md rounded-lg p-6 text-center">
