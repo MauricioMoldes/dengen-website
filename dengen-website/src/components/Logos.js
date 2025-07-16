@@ -22,9 +22,14 @@ const Logos = () => {
   rel="noopener noreferrer"
   className="hover:opacity-80 transition-opacity"
 >
+  <img
+        src="https://www.eng.ngc.dk/Media/638519742622405413/logo-2024.svg"
+        alt="Danish National Genome Center Logo"
+        className="h-16 object-contain"
+      />
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 430 40"
+    viewBox="0 0 500 40"
     className="h-10 object-contain"
     role="img"
     aria-label="Infrastructure by the Danish National Genome Center"
@@ -36,8 +41,7 @@ const Logos = () => {
       fontSize="21"
       fill="black"
     >
-      <tspan x="0" dy="0">Infrastructure by the</tspan>
-      <tspan x="0" dy="18">Danish National Genome Center</tspan>
+      <tspan x="0" dy="0">Infrastructure by the Danish National Genome Center</tspan>
     </text>
   </svg>
 </a>

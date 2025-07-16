@@ -45,7 +45,7 @@ const Navbar = () => {
                   <li><Link to="/pipelines" className="block px-4 py-2 hover:bg-blue-600" >Pipelines</Link></li>
                   <li><Link to="/data-use-terms" className="block px-4 py-2 hover:bg-blue-600" >Data Use Terms</Link></li>
                   <li><Link to="/data-access"  className="block px-4 py-2 hover:bg-blue-600" >Data Access</Link></li>
-                  <li><Link to="/funding"  className="block px-4 py-2 hover:bg-blue-600" >Funders</Link></li>
+                  {/*<li><Link to="/funding"  className="block px-4 py-2 hover:bg-blue-600" >Funders</Link></li>*/}
                   <li><Link to="/publications" className="block px-4 py-2 hover:bg-blue-600" >Publications</Link></li>
                   <li><Link to="/citation"className="block px-4 py-2 hover:bg-blue-600" >Citation</Link></li>
                   <li><Link to="/contact"  className="block px-4 py-2 hover:bg-blue-600" >Contact</Link></li>
