@@ -55,8 +55,8 @@ function App() {
         <Route path="/team" element={<TeamPage />} />
         <Route path="/data-access" element={<DataAccessPage />} />
         <Route path="/citation" element={<CitationPage />} />
-        {/*<Route path="/funding" element={<FundingPage />} />*/} 
-        {/* <Route path="/beacon" element={<BeaconPage />} /> */} 
+        <Route path="/funding" element={<FundingPage />} /> 
+        <Route path="/beacon" element={<BeaconPage />} />  
         <Route path="/comming-soon" element={<ComingSoonPage />} />
         <Route path="/cohort-statistics" element={<DenGenStats />} />
         <Route path="/publications" element={<PublicationsPage />} />

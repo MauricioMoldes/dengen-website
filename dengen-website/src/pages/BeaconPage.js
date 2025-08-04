@@ -72,7 +72,7 @@ function BeaconPage() {
   The DenGen Beacon API provides programmatic access to genomic variant queries. You can access the API at:
 </p>
 <code className="block bg-gray-100 p-3 rounded font-mono text-sm text-[#003865] mb-4">
-  http://10.62.55.108:5050/api
+  http://beacon.dengen.dk/api
 </code>
 
 <p className="text-gray-600">

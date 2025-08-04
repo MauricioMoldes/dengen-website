@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import config from '../config';
+
+
 
 const Features = () => {
   return (
@@ -35,7 +38,7 @@ const Features = () => {
           </p>
           <a
            
-            href="/comming-soon"
+            href={config.GENOME_AGGREGATION_BROWSER}
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
             target="_blank" rel="noopener noreferrer"
           >
@@ -50,7 +53,7 @@ const Features = () => {
           Discover allele frequency insights in DenGen’s harmonized genomic dataset, enabling population-scale variant exploration.
           </p>
           <a
-            href="http://10.62.55.108:3001/"
+            href={config.ALLELE_FREQUENCY_BROWSER}
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
             target="_blank" rel="noopener noreferrer"
           >
@@ -70,7 +73,7 @@ const Features = () => {
           Discover Danish Human Genomic data securely with the GA4GH Beacon protocol.
           </p>
           <a
-            href="/comming-soon"
+            href="/beacon"
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition mt-auto"
             target="_blank" rel="noopener noreferrer"
           >

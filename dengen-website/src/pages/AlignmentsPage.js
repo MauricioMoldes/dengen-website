@@ -8,8 +8,7 @@ function AlignmentsPage() {
   const { filename } = useParams();
   const images = [
     {
-      src: `/alignments/${filename}/${filename}-acgt-cycles.png`,
-      //src: `https://http://10.62.55.108/ftp/alignments/${filename}/acgt-cycles.png`,
+      src: `/alignments/${filename}/${filename}-acgt-cycles.png`,      
       legend: 'AGCT Cycles',
       info: 'This image represents acgt-cycles.',
     },

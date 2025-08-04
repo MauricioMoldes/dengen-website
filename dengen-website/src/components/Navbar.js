@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import config from '../config';
+
 
 const Navbar = () => {
   return (
@@ -45,7 +47,7 @@ const Navbar = () => {
                   <li><Link to="/pipelines" className="block px-4 py-2 hover:bg-blue-600" >Pipelines</Link></li>
                   <li><Link to="/data-use-terms" className="block px-4 py-2 hover:bg-blue-600" >Data Use Terms</Link></li>
                   <li><Link to="/data-access"  className="block px-4 py-2 hover:bg-blue-600" >Data Access</Link></li>
-                  {/*<li><Link to="/funding"  className="block px-4 py-2 hover:bg-blue-600" >Funders</Link></li>*/}
+                  <li><Link to="/funding"  className="block px-4 py-2 hover:bg-blue-600" >Funders</Link></li>
                   <li><Link to="/publications" className="block px-4 py-2 hover:bg-blue-600" >Publications</Link></li>
                   <li><Link to="/citation"className="block px-4 py-2 hover:bg-blue-600" >Citation</Link></li>
                   <li><Link to="/contact"  className="block px-4 py-2 hover:bg-blue-600" >Contact</Link></li>
@@ -67,9 +69,28 @@ const Navbar = () => {
                   onMouseEnter={(e) => e.stopPropagation()} // Ensures the dropdown stays open
                   onMouseLeave={(e) => e.stopPropagation()} // Prevents premature closure
                 >
-                  <li><Link to="/comming-soon" target="_blank" className="block px-4 py-2 hover:bg-blue-600" >Genome Aggregation Browser</Link></li>
-                  <li><Link to="http://10.62.55.108:3001/" target="_blank" className="block px-4 py-2 hover:bg-blue-600" >Allele Frequency Browser</Link></li>
-                  <li><Link to="/comming-soon" target="_blank" className="block px-4 py-2 hover:bg-blue-600" >Danish Beacon</Link></li>
+                  <li>
+                    <a
+                      href={config.GENOME_AGGREGATION_BROWSER}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-2 hover:bg-blue-600"
+                    >
+                      Genome Aggregation Browser
+                    </a>
+                  </li>
+
+                  <li>
+                    <a
+                      href={config.ALLELE_FREQUENCY_BROWSER}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block px-4 py-2 hover:bg-blue-600"
+                    >
+                      Allele Frequency Browser
+                    </a>
+                  </li>
+                  <li><Link to="/beacon" target="_blank" className="block px-4 py-2 hover:bg-blue-600" >Danish Beacon</Link></li>
                   <li><Link to="/landing" target="_blank"  className="block px-4 py-2 hover:bg-blue-600" >Data Quality Portal</Link></li>                
                 </ul>
               </div>
