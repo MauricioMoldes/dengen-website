@@ -4,7 +4,8 @@ import { useState } from 'react';
 const Logos = () => {
   return (
     <div className="flex justify-center items-center space-x-16 bg-gray-100 py-6">
-	  <a
+	  {/*
+    <a
         href="https://www.rigshospitalet.dk"
         target="_blank"
         rel="noopener noreferrer"
@@ -15,7 +16,8 @@ const Logos = () => {
         alt="Rigshospitalet Logo"
         className="h-16 object-contain"
       />
-	  </a>
+	  </a>*/}
+    {/*
    <a
   href="https://eng.ngc.dk"
   target="_blank"
@@ -45,6 +47,7 @@ const Logos = () => {
     </text>
   </svg>
 </a>
+*/}
    {/*<a 
         href="https://eng.ngc.dk" 
         target="_blank" 

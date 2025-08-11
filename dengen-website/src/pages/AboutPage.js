@@ -12,7 +12,7 @@ function AboutPage() {
       <div className="bg-white p-6 rounded-lg shadow-md">
         <h2 className="text-2xl font-semibold text-[#003865] mb-4">What is DenGen?</h2>
         <p className="text-gray-600 mb-6">
-          DenGen (Danish Genomes) is a national genomics initiative designed to provide a comprehensive resource for understanding the genetic diversity of the Danish population. By leveraging cutting-edge technologies and robust bioinformatics tools, DenGen aims to advance clinical research, genetic diagnostics, and personalized medicine in Denmark. Our goal is to generate a valuable dataset of genomic variants, including single-nucleotide variants (SNVs) and structural variants (SVs), which will be freely accessible to researchers, clinicians, and the scientific community.
+          DenGen (Danish Genomes) is a genomics initiative designed to provide a comprehensive resource for understanding the genetic diversity of the Danish population. This proof-of-concept database, aims to advance clinical research, genetic diagnostics, and personalized medicine in Denmark. Our goal is to provide a valuable dataset of genomic variants, including Single Nucleotide Variants (SNVs) and Structural Variants (SVs), which will be freely accessible to researchers, clinicians, and the scientific community.
         </p>      
 
         <h3 className="text-xl font-semibold text-[#003865] mb-4">Our Mission</h3>
@@ -28,7 +28,12 @@ function AboutPage() {
 
         <h3 className="text-xl font-semibold text-[#003865] mb-4">The DenGen Dataset</h3>
         <p className="text-gray-600 mb-6">
-          The DenGen dataset consists of high-quality whole-genome sequencing data from over 2,000 unrelated individuals, covering a broad spectrum of the Danish population. The dataset includes both SNVs and SVs, offering valuable insights for a wide range of research applications. All data is anonymized to ensure privacy while still providing researchers with the necessary information to conduct meaningful analyses.
+          The initial DenGen dataset consists of high-quality whole-genome sequencing data from over 2,000 Danish individuals from patient diagnostics. The dataset is covering a spectrum of the Danish population, and have been filtered to minimise 1st and 2nd degree relations. The dataset includes both Single Nucleotide Variants and Structural Variants.
+        </p>
+
+        <h3 className="text-xl font-semibold text-[#003865] mb-4">Does the database contain person identifiable or pathogenic variants?</h3>
+        <p className="text-gray-600 mb-6">
+          The dataset in the database is anonymized, and only variants occuring 5 or more times are displayed. Pathogenic variants are rare variants, and since filtering includes only common variants, potential pathogenic variants are excluded from the dataset. 
         </p>
 
         <h3 className="text-xl font-semibold text-[#003865] mb-4">Why DenGen Matters</h3>
@@ -57,13 +62,11 @@ function AboutPage() {
           Learn more about the <a href="/pipelines" className="text-[#003865] hover:underline">DenGen Pipelines</a>.
         </p>
 
-        <h3 className="text-xl font-semibold text-[#003865] mb-4">Collaborations and Partners</h3>
-        <p className="text-gray-600 mb-6">
-          DenGen is the result of collaborative efforts between leading research institutions, healthcare providers, and funding bodies. Our partners include:
-        </p>
+        <h3 className="text-xl font-semibold text-[#003865] mb-4">Acknowledgements</h3>
+        
         <ul className="list-disc list-inside space-y-2 text-gray-600 mb-6">          
-          <li><strong>Rigshospitalet</strong>:  The Department of Genomic Medicine at Rigshospitalet was responsible for generating the sequencing data and performing primary data analysis. Their clinical expertise and laboratory infrastructure ensured high-quality data production, while their bioinformatics team contributed to variant calling and interpretation, ensuring the dataset's relevance to diagnostic and translational research.</li>         
-          <li><strong>Danish National Genome Center (NGC)</strong>: The NGC provided the computational infrastructure necessary for large-scale data processing, analysis, and long-term storage. This included secure high-performance computing resources and data hosting platforms that enabled efficient handling of the entire DenGen dataset.</li>
+         <li><strong>Danish National Genome Center (NGC)</strong>: The NGC provided the computational infrastructure necessary for large-scale data processing, analysis, and long-term storage. This included secure high-performance computing resources and data hosting platforms that enabled efficient handling of the entire DenGen dataset.</li>
+          <li><strong>Broad Institute</strong>: Valueable technical insights, academic  discussions and general contribiutions to open source clinical bioinformatics software. </li>
         </ul>
 
         <h3 className="text-xl font-semibold text-[#003865] mb-4">Contact Us</h3>

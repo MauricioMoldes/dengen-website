@@ -6,17 +6,13 @@ const Navbar = () => {
   return (
     <div>
       {/* Rigshospitalet Logo Above Navbar - Left Aligned */}
+     
       <div className="flex justify-start py-8 bg-white shadow-md">
-        <img
+         {/*<img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Rigshospitalet_logo.svg/800px-Rigshospitalet_logo.svg.png?20171103201311"
-          className="h-12 ml-4"
-          /*src="/image.png"*/
-          /*src="dengen_dall-e.webp"*/
-          /*src="dengen_dall-e_tentative.png"   */       
-          alt="Rigshospitalet"
-          /*className="h-[140px] w-auto ml-4 rounded-full"*/ 
-          
-        />
+          className="h-12 ml-4"          
+          alt="Rigshospitalet"                  
+        />*/}
       </div>
 
       {/* Navbar */}
@@ -47,11 +43,11 @@ const Navbar = () => {
                   <li><Link to="/pipelines" className="block px-4 py-2 hover:bg-blue-600" >Pipelines</Link></li>
                   <li><Link to="/data-use-terms" className="block px-4 py-2 hover:bg-blue-600" >Data Use Terms</Link></li>
                   <li><Link to="/data-access"  className="block px-4 py-2 hover:bg-blue-600" >Data Access</Link></li>
-                  <li><Link to="/funding"  className="block px-4 py-2 hover:bg-blue-600" >Funders</Link></li>
-                  <li><Link to="/publications" className="block px-4 py-2 hover:bg-blue-600" >Publications</Link></li>
+                   {/*<li><Link to="/funding"  className="block px-4 py-2 hover:bg-blue-600" >Funders</Link></li>*/}
+                   {/* <li><Link to="/publications" className="block px-4 py-2 hover:bg-blue-600" >Publications</Link></li>*/}
                   <li><Link to="/citation"className="block px-4 py-2 hover:bg-blue-600" >Citation</Link></li>
                   <li><Link to="/contact"  className="block px-4 py-2 hover:bg-blue-600" >Contact</Link></li>
-                  <li><Link to="/team" className="block px-4 py-2 hover:bg-blue-600" >Team</Link></li>
+                   {/*<li><Link to="/team" className="block px-4 py-2 hover:bg-blue-600" >Team</Link></li>*/}
                 </ul>
               </div>
             </li>

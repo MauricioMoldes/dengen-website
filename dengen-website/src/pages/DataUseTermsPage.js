@@ -37,7 +37,7 @@ function DataUseTermsPage() {
  
     <h2 className="text-2xl font-semibold text-[#003865] mb-4">Privacy and Data Protection</h2>
     <p className="text-gray-600 mb-6">
-      DenGen is committed to protecting the privacy of individuals. While the data is aggregated and anonymized, users must handle it responsibly and in accordance with the General Data Protection Regulation (GDPR) and the Danish Data Protection Act. For more information, please refer to the Danish Data Protection Agency's guidelines. (<a href="https://www.datatilsynet.dk/english" className="text-blue-500 underline">datatilsynet.dk</a>)
+      DenGen is committed to protecting the privacy of individuals. While the data is aggregated and anonymized, users must handle it responsibly and in accordance with the General Data Protection Regulation (GDPR). {/* and the Danish Data Protection Act. For more information, please refer to the Danish Data Protection Agency's guidelines. (<a href="https://www.datatilsynet.dk/english" className="text-blue-500 underline">datatilsynet.dk</a>)*/}
     </p>
   
 
