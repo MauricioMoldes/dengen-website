@@ -16,7 +16,7 @@ function ContactPage() {
           {/*<h3 className="text-lg font-semibold text-[#003865]">DenGen</h3>*/}
           {/* <p className="text-gray-600">Head of Bioinformatics</p>*/}
           <p className="text-gray-600">Email: <a href="mailto:support@dengen.dk" className="text-[#003865] hover:underline">support@dengen.dk</a></p>
-          <p className="text-gray-600">Phone: <a href="tel:+4528550628" className="text-[#003865] hover:underline">+45 2855 0628</a></p>
+           {/*<p className="text-gray-600">Phone: <a href="tel:+4528550628" className="text-[#003865] hover:underline">+45 2855 0628</a></p>*/}
         </div>
 
       {/* 
