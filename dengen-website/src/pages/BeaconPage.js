@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "./LayoutPage"; // Import the Layout component
+import config from '../config';
 
 function BeaconPage() {
   return (
@@ -59,7 +60,7 @@ function BeaconPage() {
 
          <div className="text-center mt-6">
         <a
-            href="http://10.62.55.108:8082"  target="_blank"           
+            href={config.REACT_APP_CLINICAL_BEACON_UI}  target="_blank"           
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
           >
             Access the DenGen Beacon Interface
