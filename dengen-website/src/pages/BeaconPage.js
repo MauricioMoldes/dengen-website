@@ -60,7 +60,7 @@ function BeaconPage() {
 
          <div className="text-center mt-6">
         <a
-            href={config.CLINICAL_BEACON_UI}  target="_blank"           
+            href={config.BEACON_UI}  target="_blank"           
             className="bg-[#003865] text-white py-2 px-4 rounded hover:bg-[#005a99] transition"
           >
             Access the DenGen Beacon Interface
