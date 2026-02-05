@@ -25,6 +25,7 @@ import AlignmentsPage from './pages/AlignmentsPage';
 import SearchPage from './pages/SearchPage';
 import NotFoundPage from './pages/NotFoundPage';
 import ComingSoonPage from './pages/CommingSoonPage';
+import GA4GHPage from './pages/GA4GHPage';
 
 
 function App() {
@@ -60,10 +61,9 @@ function App() {
         <Route path="/comming-soon" element={<ComingSoonPage />} />
         <Route path="/cohort-statistics" element={<DenGenStats />} />
         {/*  <Route path="/publications" element={<PublicationsPage />} />*/}
-        <Route path="/search" element={<SearchPage />} />       
+        <Route path="/search" element={<SearchPage />} />  
+        <Route path="/ga4gh" element={<GA4GHPage />} />
         <Route path="/*" element={<NotFoundPage />}  />
-        
-        
 
       </Routes>
   
