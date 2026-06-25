@@ -319,7 +319,7 @@ function StandardsPage() {
           {/* ── ELIXIR ── */}
           <SectionHeading id="elixir">ELIXIR / bio.tools</SectionHeading>
           <LogoCard
-            src="https://elixir-europe.org/sites/default/files/images/logo-elixir-no-bg.png"
+            src="https://elixir-europe.org/sites/default/files/elixir_logo_0.png"
             alt="ELIXIR Logo"
             href="https://elixir-europe.org/"
             height={56}
