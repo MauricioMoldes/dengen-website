@@ -283,7 +283,7 @@ function StandardsPage() {
           {/* ── Bioschemas ── */}
           <SectionHeading id="bioschemas">Bioschemas</SectionHeading>
           <LogoCard
-            src="https://bioschemas.org/images/square_logo2.png"
+            src="https://bioschemas.org/assets/img/logo_color.png"
             alt="Bioschemas Logo"
             href="https://bioschemas.org/"
             height={56}
